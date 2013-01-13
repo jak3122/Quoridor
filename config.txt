@@ -1,0 +1,115 @@
+############# QWE (Quoridor) Python Game Client Config File ################
+############################ SET THIS FIRST ################################
+
+# API_KEY ---
+# Get a key at https://adelaide.cs.rit.edu/~royale/quoridorui/getapikey/
+# Remove the "GetAnAPIKey" text below and replace it with the key you
+# have copied off the web page.
+
+API_KEY GetAnAPIKey
+
+########################### MAIN GAME CONFIG ###############################
+
+# PLAYER_MODULES ---
+# List of player modules separated by commas.
+# Names of player modules are the names of the subdirectories (packages)
+# inside the StudentEngines directory.
+# The number of modules listed here determines the number of players in the
+# game. 
+# To play via the GUI, use Human.  
+
+PLAYER_MODULES OKComputer,Human
+
+# PART ONE ---
+# Enter part one mode if the player code is currently set up to perform
+# the functionality specified in Part 1 of the project assignment.
+# TIP: PLAYER_MODULES should _only_ contain the name of the player
+# being tested.
+
+PART_ONE False
+
+# UI ---
+# Should the graphical UI be displayed?
+
+UI True
+
+# AUTO_PLAY ---
+# Enable/disable automatic gameplay
+# True => automatic - Moves proceed based on the ANIMATION_SPEED variable.
+# False => manual - Striking the ENTER key
+#                   in the console advances to the next move.
+
+AUTO_PLAY True
+
+# ANIMATION_SPEED ---
+# Animation speed, in milliseconds is the time between successive moves
+# when AUTO_PLAY (above) is True. So, lower is faster.
+# Acceptable values: 1-3000
+# Any number below 300 disables the fancy movement animations.
+
+ANIMATION_SPEED 500
+
+# FILE_LOGGING ---
+# Should the game log be saved in a file during game play?
+# If True, the file's name is created automatically from the current date
+# and time.
+# The log files are found in the Logs directory.
+
+FILE_LOGGING True
+
+# STDOUT_LOGGING ---
+# Should the game log be displayed in the console during game play?
+# See code documentation for access to the logging variable.
+
+STDOUT_LOGGING True
+
+# PRE_MOVE ---
+# Moves to make before the players get control
+# This variable is unique in that it can be assigned many consecutive values.
+# When a game starts, the moves are executed in the order that they appear
+# in this file. They get executed after the players' and engine's init()
+# functions are called. Each move performed causes calls to the same notifying
+# functions that get called if a player had had its move() function called.
+# Note that the programmer must take care to alternate the player ID of each
+# successive PRE_MOVE to mimic what would happen in a normal game with the
+# number of players specified in PLAYER_MODULES, above.
+# The format is that of the PlayerMove constructor (found in 
+# Model/interface.py).
+# Below are listed four sample pre-moves for a 1-player game.
+# Uncomment them to use them.
+
+# PlayerMove(player ID, player movement, start row, start col, end row, end col)
+
+# PRE_MOVE PlayerMove(1,False,7,3,7,5)
+# PRE_MOVE PlayerMove(1,False,7,5,7,7)
+# PRE_MOVE PlayerMove(1,False,7,6,9,6)
+# PRE_MOVE PlayerMove(1,False,7,7,9,7)
+
+########################### ENGINE STUDENTS ONLY ###############################
+
+# Type the name of your student engine module
+STUDENT_ENGINE_MODULE RenameYourEngine
+
+# Student engine mode (1-4, or 0 to disable)
+STUDENT_ENGINE_MODE 0
+
+# Number of walls to place during board generation (part 4)
+# This number is per player, and less than the maximum (see NUM_WALLS)
+STUDENT_ENGINE_WALLS 0
+
+################################# ADVANCED #####################################
+
+# Wall count dictionary for 1, 2 and 4 players
+NUM_WALLS {1:20,2:10,4:5}
+
+# Time limit
+PLAYER_MOVE_LIMIT 10.0
+
+# Auto-grade part one on the server side (disable to speed part one mode up)
+PART_ONE_AUTOGRADE True
+
+# Web service domain (do not change)
+WEB_SERVICE_DOMAIN adelaide.cs.rit.edu/~royale/quoridorui
+
+# Secure? (do not change)
+HTTPS True

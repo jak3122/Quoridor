@@ -1,0 +1,13 @@
+2012-12-11 21:59:21.916000: ENGINE starting
+2012-12-11 21:59:21.916000: ENGINE loading STUDENT ENGINE part 1
+2012-12-11 21:59:21.916000: ENGINE loaded player module: OKComputer as player 1
+2012-12-11 21:59:21.916000: QUORIDOR ENGINE CLIENT 1.0.3 by Adam Oest initializing
+2012-12-11 21:59:22.384000: ENGINE calling STUDENT ENGINE init
+2012-12-11 21:59:22.384000: ERROR: __init__() takes exactly 5 arguments (4 given)
+2012-12-11 21:59:22.384000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Model\__init__.py", line 546, in studentEngineCall
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\__init__.py", line 54, in init
+    engineData = EngineData(logger, config, studentModel)#, NewBoard)
+TypeError: __init__() takes exactly 5 arguments (4 given)
+

@@ -1,0 +1,18 @@
+2012-12-12 01:11:08.800000: ENGINE starting
+2012-12-12 01:11:08.801000: ENGINE loading STUDENT ENGINE part 1
+2012-12-12 01:11:08.823000: ENGINE loaded player module: OKComputer as player 1
+2012-12-12 01:11:08.824000: QUORIDOR ENGINE CLIENT 1.0.3 by Adam Oest initializing
+2012-12-12 01:11:09.405000: ENGINE calling STUDENT ENGINE init
+2012-12-12 01:11:09.407000: STUDENT ENGINE init call successfully returned
+2012-12-12 01:11:09.407000: ENGINE calling init() for player 1
+2012-12-12 01:11:09.409000: OKComputer initialized as player 1
+2012-12-12 01:11:09.409000: MODEL: starting path queries
+2012-12-12 01:11:09.421000: ENGINE called STUDENT ENGINE get_shortest_path
+2012-12-12 01:11:09.422000: ERROR: unhashable type: 'list'
+2012-12-12 01:11:09.423000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Model\__init__.py", line 560, in studentEngineCallNoLog
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\__init__.py", line 198, in get_shortest_path
+    if neighbor not in predecessors:
+TypeError: unhashable type: 'list'
+

@@ -1,0 +1,23 @@
+2012-12-11 21:59:59.980000: ENGINE starting
+2012-12-11 21:59:59.980000: ENGINE loading STUDENT ENGINE part 1
+2012-12-11 21:59:59.980000: ERROR: invalid syntax (engineData.py, line 18)
+2012-12-11 21:59:59.980000: TRACE:
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Engine\controller.py", line 56, in __init__
+  File "C:\Python32\lib\importlib\__init__.py", line 124, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "C:\Python32\lib\importlib\_bootstrap.py", line 821, in _gcd_import
+    loader.load_module(name)
+  File "C:\Python32\lib\importlib\_bootstrap.py", line 436, in load_module
+    return self._load_module(fullname)
+  File "C:\Python32\lib\importlib\_bootstrap.py", line 141, in decorated
+    return fxn(self, module, *args, **kwargs)
+  File "C:\Python32\lib\importlib\_bootstrap.py", line 342, in _load_module
+    exec(code_object, module.__dict__)
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\__init__.py", line 11, in <module>
+    from .engineData import EngineData
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\engineData.py", line 18
+    def __init__(self, logger, config, model)#, board):
+                                                      ^
+SyntaxError: invalid syntax
+

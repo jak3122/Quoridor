@@ -1,0 +1,58 @@
+2012-12-12 02:11:03.949000: ENGINE starting
+2012-12-12 02:11:03.949000: ENGINE loading STUDENT ENGINE part 1
+2012-12-12 02:11:03.978000: ENGINE loaded player module: OKComputer as player 1
+2012-12-12 02:11:03.978000: QUORIDOR ENGINE CLIENT 1.0.3 by Adam Oest initializing
+2012-12-12 02:11:04.442000: ENGINE calling STUDENT ENGINE init
+2012-12-12 02:11:04.442000: STUDENT ENGINE init call successfully returned
+2012-12-12 02:11:04.443000: ENGINE calling init() for player 1
+2012-12-12 02:11:04.443000: OKComputer initialized as player 1
+2012-12-12 02:11:04.443000: ENGINE processing move # 1
+2012-12-12 02:11:04.443000: ENGINE getting move for player 1 from PRE_MOVE list 
+2012-12-12 02:11:04.443000: ENGINE validating player 1 move. Player 1 Wall: [7,3] -> [7,5]
+2012-12-12 02:11:04.443000: ENGINE uploading move to web engine
+2012-12-12 02:11:04.695000: ENGINE calling STUDENT ENGINE last_move
+2012-12-12 02:11:04.695000: STUDENT ENGINE last_move call successfully returned
+2012-12-12 02:11:04.696000: ENGINE finished processing player 1's move
+2012-12-12 02:11:04.697000: ENGINE notifying player 1 of last move
+2012-12-12 02:11:04.697000: ENGINE finished with next move
+2012-12-12 02:11:04.698000: ENGINE processing move # 2
+2012-12-12 02:11:04.698000: ENGINE getting move for player 1 from PRE_MOVE list 
+2012-12-12 02:11:04.698000: ENGINE validating player 1 move. Player 1 Wall: [7,5] -> [7,7]
+2012-12-12 02:11:04.698000: ENGINE uploading move to web engine
+2012-12-12 02:11:04.770000: ENGINE calling STUDENT ENGINE last_move
+2012-12-12 02:11:04.770000: STUDENT ENGINE last_move call successfully returned
+2012-12-12 02:11:04.771000: ENGINE finished processing player 1's move
+2012-12-12 02:11:04.772000: ENGINE notifying player 1 of last move
+2012-12-12 02:11:04.772000: ENGINE finished with next move
+2012-12-12 02:11:04.773000: ENGINE processing move # 3
+2012-12-12 02:11:04.773000: ENGINE getting move for player 1 from PRE_MOVE list 
+2012-12-12 02:11:04.773000: ENGINE validating player 1 move. Player 1 Wall: [7,6] -> [9,6]
+2012-12-12 02:11:04.773000: ENGINE uploading move to web engine
+2012-12-12 02:11:04.878000: ENGINE calling STUDENT ENGINE last_move
+2012-12-12 02:11:04.878000: STUDENT ENGINE last_move call successfully returned
+2012-12-12 02:11:04.878000: ENGINE finished processing player 1's move
+2012-12-12 02:11:04.879000: ENGINE notifying player 1 of last move
+2012-12-12 02:11:04.880000: ENGINE finished with next move
+2012-12-12 02:11:04.880000: ENGINE processing move # 4
+2012-12-12 02:11:04.880000: ENGINE getting move for player 1 from PRE_MOVE list 
+2012-12-12 02:11:04.880000: ENGINE validating player 1 move. Player 1 Wall: [7,7] -> [9,7]
+2012-12-12 02:11:04.880000: ENGINE uploading move to web engine
+2012-12-12 02:11:04.993000: ENGINE calling STUDENT ENGINE last_move
+2012-12-12 02:11:04.993000: STUDENT ENGINE last_move call successfully returned
+2012-12-12 02:11:04.993000: ENGINE finished processing player 1's move
+2012-12-12 02:11:04.994000: ENGINE notifying player 1 of last move
+2012-12-12 02:11:04.995000: ENGINE finished with next move
+2012-12-12 02:11:04.995000: MODEL: starting path queries
+2012-12-12 02:11:11.270000: MODEL: After 6.28452371071826 seconds, got 6561 paths from player
+2012-12-12 02:11:11.270000: MODEL: uploading paths for validation by engine
+2012-12-12 02:11:17.958000: MODEL: finished uploading paths. Validation result: 
+6561 out of 6561 paths are correct. Path Score: 100% 
+2012-12-12 02:11:17.958000: MODEL: use the GUI to view your paths.
+2012-12-12 02:11:17.958000: MODEL: starting neighbor validation
+2012-12-12 02:11:17.958000: MODEL: neighbor validation completed.
+272 valid neighbors out of 272.  0 excessive neighbors.  Neighbor Score: 100.0%
+2012-12-12 02:11:18.037000: MODEL: Part one processing completed.  Disabling player to start shortest path GUI.
+2012-12-12 02:11:18.037000: ENGINE finished with player validation
+2012-12-12 02:11:18.052000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.20680/partone.1/apikey.36bc8c65d1d4af66485/public.eda661a4b6ffec312e084099ee7d5e476a94d4e550c82e0615d99/animations.500/
+2012-12-12 02:11:18.052000: ENGINE shutting down

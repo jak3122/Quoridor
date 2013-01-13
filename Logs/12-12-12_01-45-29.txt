@@ -1,0 +1,31 @@
+2012-12-12 01:45:29.009000: ENGINE starting
+2012-12-12 01:45:29.009000: ENGINE loading STUDENT ENGINE part 1
+2012-12-12 01:45:29.025000: ENGINE loaded player module: OKComputer as player 1
+2012-12-12 01:45:29.025000: QUORIDOR ENGINE CLIENT 1.0.3 by Adam Oest initializing
+2012-12-12 01:45:29.462000: ENGINE calling STUDENT ENGINE init
+2012-12-12 01:45:29.462000: STUDENT ENGINE init call successfully returned
+2012-12-12 01:45:29.462000: ENGINE calling init() for player 1
+2012-12-12 01:45:29.462000: OKComputer initialized as player 1
+2012-12-12 01:45:29.462000: ENGINE processing move # 1
+2012-12-12 01:45:29.462000: ENGINE getting move for player 1 from PRE_MOVE list 
+2012-12-12 01:45:29.462000: ENGINE validating player 1 move. Player 1 Wall: [7,3] -> [7,5]
+2012-12-12 01:45:29.462000: ENGINE uploading move to web engine
+2012-12-12 01:45:29.555000: ENGINE calling STUDENT ENGINE last_move
+2012-12-12 01:45:29.555000: ERROR: addWall() takes exactly 6 arguments (5 given)
+2012-12-12 01:45:29.555000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Model\__init__.py", line 546, in studentEngineCall
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\__init__.py", line 93, in last_move
+    the_board.addWall(playerMove.r1, playerMove.c1, playerMove.r2, playerMove.c2)
+TypeError: addWall() takes exactly 6 arguments (5 given)
+
+2012-12-12 01:45:29.555000: ERROR: 'ENGINE exiting due to STUDENT ENGINE exception'
+2012-12-12 01:45:29.555000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Engine\controller.py", line 255, in nextTurn
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Model\__init__.py", line 553, in studentEngineCall
+Engine.security.GameException: 'ENGINE exiting due to STUDENT ENGINE exception'
+
+2012-12-12 01:45:29.664000: 'ENGINE exiting due to STUDENT ENGINE exception'
+2012-12-12 01:45:29.664000: ENGINE finished with next move
+2012-12-12 01:45:29.664000: ENGINE shutting down

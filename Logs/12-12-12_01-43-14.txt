@@ -1,0 +1,18 @@
+2012-12-12 01:43:14.548000: ENGINE starting
+2012-12-12 01:43:14.549000: ENGINE loading STUDENT ENGINE part 1
+2012-12-12 01:43:14.561000: ENGINE loaded player module: OKComputer as player 1
+2012-12-12 01:43:14.561000: QUORIDOR ENGINE CLIENT 1.0.3 by Adam Oest initializing
+2012-12-12 01:43:15.157000: ENGINE calling STUDENT ENGINE init
+2012-12-12 01:43:15.159000: STUDENT ENGINE init call successfully returned
+2012-12-12 01:43:15.159000: ENGINE calling init() for player 1
+2012-12-12 01:43:15.161000: OKComputer initialized as player 1
+2012-12-12 01:43:15.161000: MODEL: starting path queries
+2012-12-12 01:43:15.177000: ENGINE called STUDENT ENGINE get_shortest_path
+2012-12-12 01:43:15.177000: ERROR: 'tuple' object has no attribute 'x'
+2012-12-12 01:43:15.178000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.3\Python 3.2\Model\__init__.py", line 560, in studentEngineCallNoLog
+  File "C:\Users\Joe\Google Drive\CS2\Quoridor\StudentEngines\jak3122\__init__.py", line 197, in get_shortest_path
+    neigh_coords = get_neighbors(engineData, current.x, current.y)
+AttributeError: 'tuple' object has no attribute 'x'
+
