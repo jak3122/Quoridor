@@ -19,6 +19,10 @@ class EngineData(object):
             
             You decide what parameters and slots to use.  This is just a 
             minimal example.
+            
+            config: dict of parameters from config file
+            model: 
+            board: myBoard object
         """
         
         self.logger = logger

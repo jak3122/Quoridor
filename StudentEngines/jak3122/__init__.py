@@ -234,7 +234,25 @@ def validate_move(engineData, playerMove):
                         move just made
         Returns: a bool representing whether or not the given move is valid
     """
+    print("In validate_move")
+    player_id = playerMove.playerId
+    is_pawn_move = playerMove.move
+    
+    if is_pawn_move:
+        print("Pawn move")
+        
+        # check if player and engine pawn start locations match
+        r, c = playerMove.r1, playerMove.c1
+        if not engineData.board.squares[r][c] == player_id:
+            return False
+        
+    else: # wall move
+        print("Wall move")
+        
+        m = engineData.model.getPlayerData(player_id)['model'] # 
+    
 
+    input()
     return False
 
 def initialize_player(engineData, playerNum):
