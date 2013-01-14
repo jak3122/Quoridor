@@ -6,7 +6,7 @@
 # Remove the "GetAnAPIKey" text below and replace it with the key you
 # have copied off the web page.
 
-API_KEY GetAnAPIKey
+API_KEY 36bc8c65d1d4af66485
 
 ########################### MAIN GAME CONFIG ###############################
 
@@ -88,10 +88,10 @@ STDOUT_LOGGING True
 ########################### ENGINE STUDENTS ONLY ###############################
 
 # Type the name of your student engine module
-STUDENT_ENGINE_MODULE RenameYourEngine
+STUDENT_ENGINE_MODULE jak3122
 
 # Student engine mode (1-4, or 0 to disable)
-STUDENT_ENGINE_MODE 0
+STUDENT_ENGINE_MODE 2
 
 # Number of walls to place during board generation (part 4)
 # This number is per player, and less than the maximum (see NUM_WALLS)

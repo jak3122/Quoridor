@@ -235,7 +235,6 @@ def validate_move(engineData, playerMove):
         Returns: a bool representing whether or not the given move is valid
     """
 
-    # Replace the line below with your computations.
     return False
 
 def initialize_player(engineData, playerNum):
