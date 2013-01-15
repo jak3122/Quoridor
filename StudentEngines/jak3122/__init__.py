@@ -245,14 +245,13 @@ def validate_move(engineData, playerMove):
         start_r, start_c = playerMove.start
         end_r, end_c = playerMove.end
         start_square = engineData.board.squares[(start_r, start_c)]
-        print("Pawn move")
         
         
         # 2a
         # check if player and engine pawn start locations match
         if not start_square.pawnId == player_id:
             
-            print("Engine/player start square mismatch") # replace with logger call
+            print("Log: Engine/player start square mismatch") # replace with logger call
             return False
         
         # 2b
@@ -260,7 +259,7 @@ def validate_move(engineData, playerMove):
         
         within_bounds = (0 <= end_r <= BOARD_DIM-1) and (0 <= end_c <= BOARD_DIM-1)
         if not within_bounds:
-            print("End square out of bounds")
+            print("Log: End square out of bounds")
             return False
         
         # 2c
@@ -269,11 +268,10 @@ def validate_move(engineData, playerMove):
         if not list((end_r, end_c)) in start_square.neighbors:
             # get_neighbors checks if the neighbors are accessible,
             # so we don't need to do that here
-            print("End square not accessible")
+            print("Log: End square not accessible")
             return False
         
     else: # wall move
-        print("Wall move")
         
         
         m = engineData.model.getPlayerData(player_id)['model'] 
@@ -281,44 +279,48 @@ def validate_move(engineData, playerMove):
         player_positions = m.playerPositions
         walls = m.walls
         player_goals = m.playerGoals
-        print(m)
         
         # 1a
         # check that there's enough walls left
         if walls_remaining[player_id-1] <= 0:
+            print("Log: no walls remaining for player.")
             return False
+        
         # 1b
         # check that length of wall is 2 units
-        wall_height = playerMove.r2 - playerMove.r1
-        wall_width = playerMove.c2 - playerMove.c1
-        valid_wall_length = (wall_height == 2 and wall_width == 0)\
-        or (wall_height == 0 and wall_width == 2)
-        if not valid_wall_length:
-            return False
-        
         # 1c
         # make sure wall coords are legal and in bounds
-        
-        
-        
-        
         # 1d
         # make sure the top/left coord pair is in r1/c1 (start) slot
-        
-        
-        
-        
         # 1e
         # make sure wall is vertical or horizontal, not diagonal
+        wall_height = playerMove.r2 - playerMove.r1
+        wall_width = playerMove.c2 - playerMove.c1
+        vertical_wall = wall_height == 2 and wall_width == 0
+        horiz_wall = wall_height == 0 and wall_width == 2        
         
+        if vertical_wall:
+            legal_r1 = 0 <= playerMove.r1 <= 7
+            legal_c1 = 1 <= playerMove.c1 <= 8
+            legal_r2 = 2 <= playerMove.r2 <= 9
+            legal_c2 = 1 <= playerMove.c2 <= 8
+        elif horiz_wall:
+            legal_r1 = 1 <= playerMove.r1 <= 8
+            legal_c1 = 0 <= playerMove.c1 <= 7
+            legal_r2 = 1 <= playerMove.r2 <= 8
+            legal_c2 = 2 <= playerMove.c2 <= 9
+        else:
+            print("Log: walls are improper size.")
+            return False
         
+        if not legal_r1 and legal_c1 and legal_r2 and legal_c2:
+            print("Log: invalid wall coordinates.")
+            return False
+            
         
         
         # 1f
         # make sure wall doesn't cross over any other walls
-        
-        
-        
         
         # 1g
         # check that new wall placement doesn't interfere with any pawn
