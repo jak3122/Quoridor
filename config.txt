@@ -80,8 +80,8 @@ STDOUT_LOGGING True
 
 # PlayerMove(player ID, player movement, start row, start col, end row, end col)
 
-# PRE_MOVE PlayerMove(1,False,7,3,7,5)
-# PRE_MOVE PlayerMove(1,False,7,5,7,7)
+PRE_MOVE PlayerMove(1,True,8,4,7,4)
+PRE_MOVE PlayerMove(1,True,7,4,7,5)
 # PRE_MOVE PlayerMove(1,False,7,6,9,6)
 # PRE_MOVE PlayerMove(1,False,7,7,9,7)
 

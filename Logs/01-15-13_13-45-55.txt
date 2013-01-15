@@ -1,0 +1,20 @@
+2013-01-15 13:45:55.710000: ENGINE starting
+2013-01-15 13:45:55.711000: ENGINE loading STUDENT ENGINE part 2
+2013-01-15 13:45:55.716000: ENGINE loaded player module: OKComputer as player 1
+2013-01-15 13:45:55.716000: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-15 13:45:56.182000: ENGINE calling STUDENT ENGINE init
+2013-01-15 13:45:56.182000: STUDENT ENGINE init call successfully returned
+2013-01-15 13:45:56.183000: ENGINE calling init() for player 1
+2013-01-15 13:45:56.183000: OKComputer initialized as player 1
+2013-01-15 13:45:56.205000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.42009/partone.0/apikey.36bc8c65d1d4af66485/public.788fb4e1abcc60d53b1a9379f4df760b8638a20e50f5a3e1b2ab4/animations.500/
+2013-01-15 13:45:56.205000: ENGINE processing move # 1
+2013-01-15 13:45:56.205000: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-15 13:45:56.205000: ENGINE validating player 1 move. Player 1 Move: [8,5] -> [7,5]
+2013-01-15 13:45:56.205000: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 13:45:56.206000: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 13:45:56.206000: ENGINE uploading move to web engine
+2013-01-15 13:45:56.312000: ENGINE detects CORRECT move validation by STUDENT ENGINE
+2013-01-15 13:45:56.312000: ENGINE the proper reason for player invalidation was: Invalid start coordinate
+2013-01-15 13:45:56.312000: ENGINE exiting because invalid moves end the game in STUDENT ENGINE mode.
+2013-01-15 13:45:56.312000: ENGINE finished with next move

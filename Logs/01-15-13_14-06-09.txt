@@ -1,0 +1,39 @@
+2013-01-15 14:06:09.714000: ENGINE starting
+2013-01-15 14:06:09.715000: ENGINE loading STUDENT ENGINE part 2
+2013-01-15 14:06:09.726000: ENGINE loaded player module: OKComputer as player 1
+2013-01-15 14:06:09.726000: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-15 14:06:10.306000: ENGINE calling STUDENT ENGINE init
+2013-01-15 14:06:10.308000: STUDENT ENGINE init call successfully returned
+2013-01-15 14:06:10.308000: ENGINE calling init() for player 1
+2013-01-15 14:06:10.310000: OKComputer initialized as player 1
+2013-01-15 14:06:10.325000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.42078/partone.0/apikey.36bc8c65d1d4af66485/public.0dc09f03b0cbb2f56cf4ec1714313544ee59f0a150f5a89fce42c/animations.500/
+2013-01-15 14:06:10.325000: ENGINE processing move # 1
+2013-01-15 14:06:10.325000: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-15 14:06:10.326000: ENGINE validating player 1 move. Player 1 Move: [8,4] -> [7,4]
+2013-01-15 14:06:10.326000: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 14:06:49.316000: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 14:06:49.317000: ENGINE uploading move to web engine
+2013-01-15 14:06:49.440000: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 14:06:49.440000: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 14:06:49.441000: ERROR: 'Board' object is not subscriptable
+2013-01-15 14:06:49.443000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 88, in last_move
+    if source_coord == the_board[source_coord]:      # make sure our sources agree
+TypeError: 'Board' object is not subscriptable
+
+2013-01-15 14:06:49.443000: ERROR: 2013-01-15 14:06:49.443000: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-15 14:06:49.444000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Engine\controller.py", line 270, in nextTurn
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 567, in studentEngineCall
+Engine.security.GameException: 2013-01-15 14:06:49.443000: ENGINE exiting due to STUDENT ENGINE exception
+
+
+2013-01-15 14:06:49.557000: 2013-01-15 14:06:49.443000: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-15 14:06:49.557000: ENGINE finished with next move
+2013-01-15 14:06:49.558000: ENGINE shutting down

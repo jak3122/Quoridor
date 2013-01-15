@@ -49,8 +49,12 @@ def init(logger, config, studentModel):
     """
     NewBoard = Board()
     
-    # Modify the EngineData class in engineData.py as needed, and create
-    # additional files/classes for your board data
+    # initialize pawns on their home squares
+    homes = studentModel.playerHomes
+    id_counter = 1
+    for home in homes:
+        NewBoard.squares[home].pawnId = id_counter
+        id_counter += 1
     engineData = EngineData(logger, config, studentModel, NewBoard)
     
     return engineData
@@ -77,16 +81,14 @@ def last_move(engineData, playerMove):
     
     # Update your engineData board state here, incorporating the last move.
     the_board = engineData.board
-    if playerMove.move:     # pawn was moved
+    is_pawn_move = playerMove.move
+    if is_pawn_move:
         source_coord = playerMove.start
         dest_coord = playerMove.end
         
-        if source_coord == the_board[source_coord]:      # make sure our sources agree
-            the_board[source_coord].pawnId                         # remove pawn from source square
-            the_board[dest_coord].pawnId = playerMove.playerId     # move the pawn to dest square
+        the_board.squares[source_coord].pawnId = 0                     # remove pawn from source square
+        the_board.squares[dest_coord].pawnId = playerMove.playerId     # move the pawn to dest square
             
-        else:
-            pass
     else:                   # wall was placed
         the_board.addWall(playerMove.r1, playerMove.c1, playerMove.r2, playerMove.c2)
 
@@ -237,14 +239,23 @@ def validate_move(engineData, playerMove):
     print("In validate_move")
     player_id = playerMove.playerId
     is_pawn_move = playerMove.move
+    is_valid_move = True # the main flag for this function which gets returned
     
     if is_pawn_move:
-        print("Pawn move")
+        
         
         # check if player and engine pawn start locations match
         r, c = playerMove.r1, playerMove.c1
-        if not engineData.board.squares[(r,c)] == player_id:
-            return False
+        print("Pawn move")
+        print("Player id:", player_id)
+        print("r,c:", (r,c))
+        print("squares[(r,c)]:", engineData.board.squares[(r,c)])
+        print("squares[(r,c)].pawnId:", engineData.board.squares[(r,c)].pawnId)
+        
+        if not engineData.board.squares[(r,c)].pawnId == player_id:
+            
+            print("Engine/player start square mismatch") # replace with logger call
+            is_valid_move = False
         
     else: # wall move
         print("Wall move")
@@ -253,7 +264,7 @@ def validate_move(engineData, playerMove):
     
 
     input()
-    return False
+    return is_valid_move
 
 def initialize_player(engineData, playerNum):
     """
