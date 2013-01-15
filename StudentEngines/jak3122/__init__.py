@@ -239,32 +239,51 @@ def validate_move(engineData, playerMove):
     print("In validate_move")
     player_id = playerMove.playerId
     is_pawn_move = playerMove.move
-    is_valid_move = True # the main flag for this function which gets returned
     
     if is_pawn_move:
         
         
-        # check if player and engine pawn start locations match
-        r, c = playerMove.r1, playerMove.c1
+        
+        start_r, start_c = playerMove.start
+        end_r, end_c = playerMove.end
+        start_square = engineData.board.squares[(start_r, start_c)]
+        end_square = engineData.board.squares[(end_r, end_c)]
         print("Pawn move")
         print("Player id:", player_id)
-        print("r,c:", (r,c))
-        print("squares[(r,c)]:", engineData.board.squares[(r,c)])
-        print("squares[(r,c)].pawnId:", engineData.board.squares[(r,c)].pawnId)
-        
-        if not engineData.board.squares[(r,c)].pawnId == player_id:
+        print("r,c:", (start_r,start_c))
+        print("squares[(r,c)]:", start_square)
+        print("squares[(r,c)].pawnId:", start_square.pawnId)
+        # 2a
+        # check if player and engine pawn start locations match
+        if not start_square.pawnId == player_id:
             
             print("Engine/player start square mismatch") # replace with logger call
-            is_valid_move = False
+            return False
+        
+        # 2b
+        # check if end location is on the board
+        
+        within_bounds = (0 <= end_r <= BOARD_DIM-1) and (0 <= end_c <= BOARD_DIM-1)
+        if not within_bounds:
+            print("End square out of bounds")
+            return False
+        
+        # 2c
+        # check if end location is an accessible neighbor of start location
+        start_square.neighbors = get_neighbors(engineData, start_r, start_c)
+        if not list((end_r, end_c)) in start_square.neighbors:
+            # get_neighbors checks if the neighbors are accessible,
+            # so we don't need to do that here
+            print("End square not accessible")
+            return False
         
     else: # wall move
         print("Wall move")
         
+        
         m = engineData.model.getPlayerData(player_id)['model'] # 
     
-
-    input()
-    return is_valid_move
+    return True
 
 def initialize_player(engineData, playerNum):
     """
