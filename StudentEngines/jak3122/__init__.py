@@ -242,17 +242,12 @@ def validate_move(engineData, playerMove):
     
     if is_pawn_move:
         
-        
-        
         start_r, start_c = playerMove.start
         end_r, end_c = playerMove.end
         start_square = engineData.board.squares[(start_r, start_c)]
-        end_square = engineData.board.squares[(end_r, end_c)]
         print("Pawn move")
-        print("Player id:", player_id)
-        print("r,c:", (start_r,start_c))
-        print("squares[(r,c)]:", start_square)
-        print("squares[(r,c)].pawnId:", start_square.pawnId)
+        
+        
         # 2a
         # check if player and engine pawn start locations match
         if not start_square.pawnId == player_id:
@@ -281,7 +276,55 @@ def validate_move(engineData, playerMove):
         print("Wall move")
         
         
-        m = engineData.model.getPlayerData(player_id)['model'] # 
+        m = engineData.model.getPlayerData(player_id)['model'] 
+        walls_remaining = m.playerWallsRemaining
+        player_positions = m.playerPositions
+        walls = m.walls
+        player_goals = m.playerGoals
+        print(m)
+        
+        # 1a
+        # check that there's enough walls left
+        if walls_remaining[player_id-1] <= 0:
+            return False
+        # 1b
+        # check that length of wall is 2 units
+        wall_height = playerMove.r2 - playerMove.r1
+        wall_width = playerMove.c2 - playerMove.c1
+        valid_wall_length = (wall_height == 2 and wall_width == 0)\
+        or (wall_height == 0 and wall_width == 2)
+        if not valid_wall_length:
+            return False
+        
+        # 1c
+        # make sure wall coords are legal and in bounds
+        
+        
+        
+        
+        # 1d
+        # make sure the top/left coord pair is in r1/c1 (start) slot
+        
+        
+        
+        
+        # 1e
+        # make sure wall is vertical or horizontal, not diagonal
+        
+        
+        
+        
+        # 1f
+        # make sure wall doesn't cross over any other walls
+        
+        
+        
+        
+        # 1g
+        # check that new wall placement doesn't interfere with any pawn
+        # getting to their goal
+        
+        
     
     return True
 
