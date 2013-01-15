@@ -243,7 +243,7 @@ def validate_move(engineData, playerMove):
         
         # check if player and engine pawn start locations match
         r, c = playerMove.r1, playerMove.c1
-        if not engineData.board.squares[r][c] == player_id:
+        if not engineData.board.squares[(r,c)] == player_id:
             return False
         
     else: # wall move
