@@ -4,7 +4,7 @@ Quoridor II: Student Computer Engine
 A sample class you may use to hold your state data
 Author: Adam Oest (amo9149@rit.edu)
 
-Author: JOE KSIAZEK (jak3122@rit.edu)
+Author: Joe Ksiazek (jak3122@rit.edu)
 """
 
 class EngineData(object):

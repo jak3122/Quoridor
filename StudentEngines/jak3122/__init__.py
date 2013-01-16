@@ -1,6 +1,9 @@
 """
 Student Quoridor Engine Module        
 Author: Adam Oest (amo9149@rit.edu)
+
+Author: Wheeler Law (wpl3499@rit.edu)
+Author: Joe Ksiazek (jak3122@rit.edu)
     
 This is where you will be able to define all the
 methods that control the flow of execution of the game
@@ -8,6 +11,7 @@ methods that control the flow of execution of the game
 from Model.interface import PlayerMove
 from Model.interface import BOARD_DIM
 from Engine.security import GameException
+from Engine.logger import Logger
 from .engineData import EngineData
 from .myBoard import *
 from .myQueue import *
@@ -236,7 +240,7 @@ def validate_move(engineData, playerMove):
                         move just made
         Returns: a bool representing whether or not the given move is valid
     """
-    print("In validate_move")
+    Logger.write(Logger,"VALIDATION: Validating.........")
     player_id = playerMove.playerId
     is_pawn_move = playerMove.move
     
@@ -250,8 +254,7 @@ def validate_move(engineData, playerMove):
         # 2a
         # check if player and engine pawn start locations match
         if not start_square.pawnId == player_id:
-            
-            print("Log: Engine/player start square mismatch") # replace with logger call
+            Logger.error(Logger,"VALIDATION: Engine/player start square mismatch.")
             return False
         
         # 2b
@@ -259,7 +262,7 @@ def validate_move(engineData, playerMove):
         
         within_bounds = (0 <= end_r <= BOARD_DIM-1) and (0 <= end_c <= BOARD_DIM-1)
         if not within_bounds:
-            print("Log: End square out of bounds")
+            Logger.error(Logger,"VALIDATION ERROR: End square out of bounds.")
             return False
         
         # 2c
@@ -268,7 +271,7 @@ def validate_move(engineData, playerMove):
         if not list((end_r, end_c)) in start_square.neighbors:
             # get_neighbors checks if the neighbors are accessible,
             # so we don't need to do that here
-            print("Log: End square not accessible")
+            Logger.error(Logger,"VALIDATION ERROR: End square not accessible.")
             return False
         
     else: # wall move
@@ -283,7 +286,7 @@ def validate_move(engineData, playerMove):
         # 1a
         # check that there's enough walls left
         if walls_remaining[player_id-1] <= 0:
-            print("Log: no walls remaining for player.")
+            Logger.error(Logger,"VALIDATION ERROR: No walls remaining for player.")
             return False
         
         # 1b
@@ -310,11 +313,11 @@ def validate_move(engineData, playerMove):
             legal_r2 = 1 <= playerMove.r2 <= 8
             legal_c2 = 2 <= playerMove.c2 <= 9
         else:
-            print("Log: walls are improper size.")
+            Logger.error(Logger,"VALIDATION ERROR: Walls are improper size.")
             return False
         
         if not legal_r1 and legal_c1 and legal_r2 and legal_c2:
-            print("Log: invalid wall coordinates.")
+            Logger.error(Logger,"VALIDATION ERROR: Invalid wall coordinates.")
             return False
             
         
@@ -322,10 +325,72 @@ def validate_move(engineData, playerMove):
         # 1f
         # make sure wall doesn't cross over any other walls
         
+        #something to note: when walls cross over each other,
+        # it means that their center points are touching. 
+        center_point=(int((playerMove.r1+playerMove.r2)/2),int((playerMove.c1+playerMove.c2)/2))
+        for i in range(0,len(walls)):
+            temp_center_point=(int((walls[i][0]+walls[i][2])/2),int((walls[i][1]+walls[i][3])/2))
+            if center_point==temp_center_point:
+                Logger.error(Logger,"VALIDATION ERROR: Invalid wall placement, overlaps valid wall.")
+                return False
+            
+        #overlapping walls are a little trickier. Walls overlapping completely
+        #have their center points touching, but walls that are only overlapping
+        #one section do not. So things get a little trickier. Basically the 
+        #center point of the wall to be placed has to be touching an end point
+        # of another wall AND they have the be in the same direction. 
+        
+        stop=0 #needed this for a break point. does nothing. 
+        
+        for i in range(0,len(walls)):
+            
+            #determine direction of walls already places
+            height=walls[i][2]-walls[i][0]
+            width=walls[i][3]-walls[i][1]
+            if height==0: #horizontal: True, vertical: False
+                direction=True
+            else:
+                direction=False
+                
+            end_point_N=(walls[i][0],walls[i][1])
+            if end_point_N==center_point and direction==horiz_wall: #notice a pattern?
+                Logger.error(Logger,"VALIDATION ERROR: Invalid wall placement, overlaps valid wall.")
+                return False
+                return False
+            
+            end_point_S=(walls[i][2],walls[i][3])
+            if end_point_S==center_point and direction==horiz_wall:
+                Logger.error(Logger,"VALIDATION ERROR: invalid wall placement, overlaps valid wall.")
+                return False
+                return False
+        
+        
         # 1g
         # check that new wall placement doesn't interfere with any pawn
         # getting to their goal
         
+        engineData_test=last_move(engineData,playerMove)
+        
+        available=0 #number of goal squares accessible to the pawn. At the start
+                    #of the game, it is 9, but then goes down as you block them off.
+                    
+        for i in range(0,9):
+            path=get_shortest_path(\
+                                   engineData_test,\
+                                   player_positions[0][0],\
+                                   player_positions[0][1],\
+                                   player_goals[0][i][0],\
+                                   player_goals[0][i][1]\
+                                   )
+            #I dont know if playerGoals attribute is the same for every player, so I have it 
+            #set up for player one. Same goes for positions. 
+
+            if path!=[]:
+                available=available+1
+        
+        if available==0:
+            Logger.error(Logger,"VALIDATION ERROR: Invalid wall placement, blocks player from reaching home.")
+            return False
         
     
     return True

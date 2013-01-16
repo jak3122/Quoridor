@@ -1,0 +1,47 @@
+2013-01-16 01:08:07.216635: ENGINE starting
+2013-01-16 01:08:07.219647: ENGINE loading STUDENT ENGINE part 2
+2013-01-16 01:08:07.234785: ENGINE loaded player module: OKComputer as player 1
+2013-01-16 01:08:07.235081: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-16 01:08:07.403573: ENGINE calling STUDENT ENGINE init
+2013-01-16 01:08:07.404461: STUDENT ENGINE init call successfully returned
+2013-01-16 01:08:07.404649: ENGINE calling init() for player 1
+2013-01-16 01:08:07.405268: OKComputer initialized as player 1
+2013-01-16 01:08:07.417564: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.46194/partone.0/apikey.36bc8c65d1d4af66485/public.9bfa44191325145d6e7a327eb204b273201f5da150f643ccbb880/animations.500/
+2013-01-16 01:08:07.417873: ENGINE processing move # 1
+2013-01-16 01:08:07.417999: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-16 01:08:07.418204: ENGINE validating player 1 move. Player 1 Wall: [0,2] -> [2,2]
+2013-01-16 01:08:07.418324: ENGINE calling STUDENT ENGINE validate_move
+2013-01-16 01:08:07.520337: STUDENT ENGINE validate_move call successfully returned
+2013-01-16 01:08:07.538888: ENGINE uploading move to web engine
+2013-01-16 01:08:07.756167: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-16 01:08:07.762355: ENGINE calling STUDENT ENGINE last_move
+2013-01-16 01:08:07.763025: STUDENT ENGINE last_move call successfully returned
+2013-01-16 01:08:07.763098: ENGINE finished processing player 1's move
+2013-01-16 01:08:07.799217: ENGINE notifying player 1 of last move
+2013-01-16 01:08:07.801695: ENGINE finished with next move
+2013-01-16 01:08:07.802838: ENGINE processing move # 2
+2013-01-16 01:08:07.803050: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-16 01:08:07.808679: ENGINE validating player 1 move. Player 1 Wall: [0,2] -> [2,2]
+2013-01-16 01:08:07.808861: ENGINE calling STUDENT ENGINE validate_move
+2013-01-16 01:08:07.809100: ERROR: error() takes exactly 2 arguments (1 given)
+2013-01-16 01:08:07.810381: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 342, in validate_move
+    Logger.error("Log: Invalid wall placement, overlaps valid wall.\n")
+TypeError: error() takes exactly 2 arguments (1 given)
+
+2013-01-16 01:08:07.834706: ERROR: 2013-01-16 01:08:07.834633: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-16 01:08:07.848452: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Engine\controller.py", line 246, in nextTurn
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 567, in studentEngineCall
+Engine.security.GameException: 2013-01-16 01:08:07.834633: ENGINE exiting due to STUDENT ENGINE exception
+
+
+2013-01-16 01:08:08.102440: 2013-01-16 01:08:07.834633: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-16 01:08:08.103076: ENGINE finished with next move
+2013-01-16 01:08:08.103301: ENGINE shutting down

@@ -1,0 +1,23 @@
+2013-01-15 22:54:58.271454: ENGINE starting
+2013-01-15 22:54:58.272890: ENGINE loading STUDENT ENGINE part 2
+2013-01-15 22:54:58.279303: ERROR: invalid syntax (__init__.py, line 370)
+2013-01-15 22:54:58.283009: TRACE:
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Engine\controller.py", line 56, in __init__
+  File "/usr/lib/python3.2/importlib/__init__.py", line 124, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "/usr/lib/python3.2/importlib/_bootstrap.py", line 821, in _gcd_import
+    loader.load_module(name)
+  File "/usr/lib/python3.2/importlib/_bootstrap.py", line 436, in load_module
+    return self._load_module(fullname)
+  File "/usr/lib/python3.2/importlib/_bootstrap.py", line 141, in decorated
+    return fxn(self, module, *args, **kwargs)
+  File "/usr/lib/python3.2/importlib/_bootstrap.py", line 330, in _load_module
+    code_object = self.get_code(name)
+  File "/usr/lib/python3.2/importlib/_bootstrap.py", line 413, in get_code
+    dont_inherit=True)
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 370
+    path=get_shortest_path(/
+                           ^
+SyntaxError: invalid syntax
+

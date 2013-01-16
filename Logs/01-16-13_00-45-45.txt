@@ -1,0 +1,32 @@
+2013-01-16 00:45:45.777421: ENGINE starting
+2013-01-16 00:45:45.781362: ENGINE loading STUDENT ENGINE part 2
+2013-01-16 00:45:45.787687: ENGINE loaded player module: OKComputer as player 1
+2013-01-16 00:45:45.787914: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-16 00:45:46.414650: ENGINE calling STUDENT ENGINE init
+2013-01-16 00:45:46.415280: STUDENT ENGINE init call successfully returned
+2013-01-16 00:45:46.415404: ENGINE calling init() for player 1
+2013-01-16 00:45:46.416516: OKComputer initialized as player 1
+2013-01-16 00:45:46.425184: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.46070/partone.0/apikey.36bc8c65d1d4af66485/public.dc7721817c17e3c70ee0be6e7ec3edbbfa4ec77b50f63e8dc62f5/animations.500/
+2013-01-16 00:45:46.425628: ENGINE processing move # 1
+2013-01-16 00:45:46.425704: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-16 00:45:46.425841: ENGINE validating player 1 move. Player 1 Wall: [0,2] -> [2,2]
+2013-01-16 00:45:46.425907: ENGINE calling STUDENT ENGINE validate_move
+2013-01-16 00:45:46.528520: STUDENT ENGINE validate_move call successfully returned
+2013-01-16 00:45:46.564689: ENGINE uploading move to web engine
+2013-01-16 00:45:48.071158: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-16 00:45:48.078171: ENGINE calling STUDENT ENGINE last_move
+2013-01-16 00:45:48.079796: STUDENT ENGINE last_move call successfully returned
+2013-01-16 00:45:48.079899: ENGINE finished processing player 1's move
+2013-01-16 00:45:48.118244: ENGINE notifying player 1 of last move
+2013-01-16 00:45:48.119946: ENGINE finished with next move
+2013-01-16 00:45:48.122349: ENGINE processing move # 2
+2013-01-16 00:45:48.128276: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-16 00:45:48.129360: ENGINE validating player 1 move. Player 1 Wall: [0,2] -> [2,2]
+2013-01-16 00:45:48.130864: ENGINE calling STUDENT ENGINE validate_move
+2013-01-16 00:45:48.133478: STUDENT ENGINE validate_move call successfully returned
+2013-01-16 00:45:48.135335: ENGINE uploading move to web engine
+2013-01-16 00:45:50.069071: ENGINE detects CORRECT move validation by STUDENT ENGINE
+2013-01-16 00:45:50.072752: ENGINE the proper reason for player invalidation was: Wall overlaps with valid wall
+2013-01-16 00:45:50.072949: ENGINE exiting because invalid moves end the game in STUDENT ENGINE mode.
+2013-01-16 00:45:50.073099: ENGINE finished with next move

@@ -1,0 +1,755 @@
+2013-01-15 22:58:39.807082: ENGINE starting
+2013-01-15 22:58:39.811059: ENGINE loading STUDENT ENGINE part 2
+2013-01-15 22:58:39.826107: ENGINE loaded player module: OKComputer as player 1
+2013-01-15 22:58:39.826402: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-15 22:58:39.937636: ENGINE calling STUDENT ENGINE init
+2013-01-15 22:58:39.938140: STUDENT ENGINE init call successfully returned
+2013-01-15 22:58:39.938358: ENGINE calling init() for player 1
+2013-01-15 22:58:39.939630: OKComputer initialized as player 1
+2013-01-15 22:58:39.946526: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.45462/partone.0/apikey.36bc8c65d1d4af66485/public.3ee14726e6207b78b9cfd4db5cac5d5d81482ed350f6298f92149/animations.500/
+2013-01-15 22:58:39.946909: ENGINE processing move # 1
+2013-01-15 22:58:39.946975: ENGINE getting move for player 1 from PRE_MOVE list 
+2013-01-15 22:58:39.946990: ENGINE validating player 1 move. Player 1 Wall: [7,6] -> [9,6]
+2013-01-15 22:58:39.950894: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:40.085737: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:40.086154: ENGINE uploading move to web engine
+2013-01-15 22:58:40.275741: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:40.276303: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:40.281966: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:40.282165: ENGINE finished processing player 1's move
+2013-01-15 22:58:40.298397: ENGINE notifying player 1 of last move
+2013-01-15 22:58:40.301242: ENGINE finished with next move
+2013-01-15 22:58:40.305672: ENGINE processing move # 2
+2013-01-15 22:58:40.305895: ENGINE getting next move from player 1
+2013-01-15 22:58:41.610632: ENGINE validating player 1 move. Player 1 Wall: [1,3] -> [1,5]
+2013-01-15 22:58:41.611264: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:41.652318: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:41.652655: ENGINE uploading move to web engine
+2013-01-15 22:58:41.829533: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:41.830428: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:41.830771: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:41.830901: ENGINE finished processing player 1's move
+2013-01-15 22:58:41.873370: ENGINE notifying player 1 of last move
+2013-01-15 22:58:41.874634: ENGINE finished with next move
+2013-01-15 22:58:41.874756: ENGINE processing move # 3
+2013-01-15 22:58:41.875022: ENGINE getting next move from player 1
+2013-01-15 22:58:41.899912: ENGINE validating player 1 move. Player 1 Move: [8,4] -> [7,4]
+2013-01-15 22:58:41.900114: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:41.900335: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:41.900496: ENGINE uploading move to web engine
+2013-01-15 22:58:42.020078: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:42.020811: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:42.020964: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:42.021076: ENGINE finished processing player 1's move
+2013-01-15 22:58:42.040662: ENGINE notifying player 1 of last move
+2013-01-15 22:58:42.041413: ENGINE finished with next move
+2013-01-15 22:58:42.041689: ENGINE processing move # 4
+2013-01-15 22:58:42.041875: ENGINE getting next move from player 1
+2013-01-15 22:58:42.689921: ENGINE validating player 1 move. Player 1 Wall: [2,4] -> [2,6]
+2013-01-15 22:58:42.690001: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:42.715844: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:42.716144: ENGINE uploading move to web engine
+2013-01-15 22:58:42.884489: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:42.884711: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:42.884852: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:42.884955: ENGINE finished processing player 1's move
+2013-01-15 22:58:42.908633: ENGINE notifying player 1 of last move
+2013-01-15 22:58:42.909279: ENGINE finished with next move
+2013-01-15 22:58:42.909647: ENGINE processing move # 5
+2013-01-15 22:58:42.909814: ENGINE getting next move from player 1
+2013-01-15 22:58:42.923169: ENGINE validating player 1 move. Player 1 Move: [7,4] -> [6,4]
+2013-01-15 22:58:42.923530: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:42.923914: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:42.924118: ENGINE uploading move to web engine
+2013-01-15 22:58:43.158305: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:43.159948: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:43.160598: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:43.160907: ENGINE finished processing player 1's move
+2013-01-15 22:58:43.177497: ENGINE notifying player 1 of last move
+2013-01-15 22:58:43.178135: ENGINE finished with next move
+2013-01-15 22:58:43.178479: ENGINE processing move # 6
+2013-01-15 22:58:43.178647: ENGINE getting next move from player 1
+2013-01-15 22:58:43.962573: ENGINE validating player 1 move. Player 1 Wall: [1,0] -> [1,2]
+2013-01-15 22:58:43.962775: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:44.054500: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:44.057757: ENGINE uploading move to web engine
+2013-01-15 22:58:44.212301: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:44.218909: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:44.219014: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:44.219017: ENGINE finished processing player 1's move
+2013-01-15 22:58:44.240150: ENGINE notifying player 1 of last move
+2013-01-15 22:58:44.240677: ENGINE finished with next move
+2013-01-15 22:58:44.240920: ENGINE processing move # 7
+2013-01-15 22:58:44.241037: ENGINE getting next move from player 1
+2013-01-15 22:58:44.254521: ENGINE validating player 1 move. Player 1 Move: [6,4] -> [6,3]
+2013-01-15 22:58:44.254729: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:44.255447: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:44.255766: ENGINE uploading move to web engine
+2013-01-15 22:58:44.529067: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:44.530741: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:44.531017: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:44.531195: ENGINE finished processing player 1's move
+2013-01-15 22:58:44.540778: ENGINE notifying player 1 of last move
+2013-01-15 22:58:44.541140: ENGINE finished with next move
+2013-01-15 22:58:44.541398: ENGINE processing move # 8
+2013-01-15 22:58:44.541563: ENGINE getting next move from player 1
+2013-01-15 22:58:45.372182: ENGINE validating player 1 move. Player 1 Wall: [2,2] -> [2,4]
+2013-01-15 22:58:45.372570: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:45.428372: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:45.432894: ENGINE uploading move to web engine
+2013-01-15 22:58:45.558191: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:45.558866: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:45.559105: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:45.559257: ENGINE finished processing player 1's move
+2013-01-15 22:58:45.593602: ENGINE notifying player 1 of last move
+2013-01-15 22:58:45.594188: ENGINE finished with next move
+2013-01-15 22:58:45.597884: ENGINE processing move # 9
+2013-01-15 22:58:45.598136: ENGINE getting next move from player 1
+2013-01-15 22:58:45.620490: ENGINE validating player 1 move. Player 1 Move: [6,3] -> [6,4]
+2013-01-15 22:58:45.622926: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:45.623262: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:45.624072: ENGINE uploading move to web engine
+2013-01-15 22:58:45.823848: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:45.826015: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:45.826225: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:45.826404: ENGINE finished processing player 1's move
+2013-01-15 22:58:45.848945: ENGINE notifying player 1 of last move
+2013-01-15 22:58:45.849461: ENGINE finished with next move
+2013-01-15 22:58:45.849690: ENGINE processing move # 10
+2013-01-15 22:58:45.849800: ENGINE getting next move from player 1
+2013-01-15 22:58:46.501683: ENGINE validating player 1 move. Player 1 Wall: [2,6] -> [2,8]
+2013-01-15 22:58:46.502131: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:46.909499: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:46.913899: ENGINE uploading move to web engine
+2013-01-15 22:58:47.172432: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:47.172916: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:47.173088: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:47.173253: ENGINE finished processing player 1's move
+2013-01-15 22:58:47.188406: ENGINE notifying player 1 of last move
+2013-01-15 22:58:47.189131: ENGINE finished with next move
+2013-01-15 22:58:47.189422: ENGINE processing move # 11
+2013-01-15 22:58:47.189554: ENGINE getting next move from player 1
+2013-01-15 22:58:47.201618: ENGINE validating player 1 move. Player 1 Move: [6,4] -> [6,3]
+2013-01-15 22:58:47.201872: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:47.202125: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:47.202270: ENGINE uploading move to web engine
+2013-01-15 22:58:47.291743: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:47.295235: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:47.295487: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:47.295729: ENGINE finished processing player 1's move
+2013-01-15 22:58:47.309276: ENGINE notifying player 1 of last move
+2013-01-15 22:58:47.309728: ENGINE finished with next move
+2013-01-15 22:58:47.311542: ENGINE processing move # 12
+2013-01-15 22:58:47.311691: ENGINE getting next move from player 1
+2013-01-15 22:58:47.918947: ENGINE validating player 1 move. Player 1 Wall: [2,0] -> [2,2]
+2013-01-15 22:58:47.919242: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:47.983628: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:47.983955: ENGINE uploading move to web engine
+2013-01-15 22:58:48.183284: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:48.201500: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:48.202230: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:48.205972: ENGINE finished processing player 1's move
+2013-01-15 22:58:48.217499: ENGINE notifying player 1 of last move
+2013-01-15 22:58:48.230874: ENGINE finished with next move
+2013-01-15 22:58:48.231152: ENGINE processing move # 13
+2013-01-15 22:58:48.231304: ENGINE getting next move from player 1
+2013-01-15 22:58:48.260812: ENGINE validating player 1 move. Player 1 Move: [6,3] -> [6,4]
+2013-01-15 22:58:48.265863: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:48.266210: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:48.266391: ENGINE uploading move to web engine
+2013-01-15 22:58:48.454339: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:48.454607: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:48.454714: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:48.455155: ENGINE finished processing player 1's move
+2013-01-15 22:58:48.475417: ENGINE notifying player 1 of last move
+2013-01-15 22:58:48.476018: ENGINE finished with next move
+2013-01-15 22:58:48.476227: ENGINE processing move # 14
+2013-01-15 22:58:48.476343: ENGINE getting next move from player 1
+2013-01-15 22:58:49.462063: ENGINE validating player 1 move. Player 1 Wall: [1,7] -> [1,9]
+2013-01-15 22:58:49.462872: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:49.665012: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:49.665765: ENGINE uploading move to web engine
+2013-01-15 22:58:49.869967: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:49.870368: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:49.870579: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:49.870735: ENGINE finished processing player 1's move
+2013-01-15 22:58:49.885722: ENGINE notifying player 1 of last move
+2013-01-15 22:58:49.887705: ENGINE finished with next move
+2013-01-15 22:58:49.888009: ENGINE processing move # 15
+2013-01-15 22:58:49.888176: ENGINE getting next move from player 1
+2013-01-15 22:58:49.908759: ENGINE validating player 1 move. Player 1 Move: [6,4] -> [5,4]
+2013-01-15 22:58:49.909088: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:49.913138: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:49.913442: ENGINE uploading move to web engine
+2013-01-15 22:58:50.012483: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:50.013123: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:50.013434: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:50.013719: ENGINE finished processing player 1's move
+2013-01-15 22:58:50.025618: ENGINE notifying player 1 of last move
+2013-01-15 22:58:50.026441: ENGINE finished with next move
+2013-01-15 22:58:50.026844: ENGINE processing move # 16
+2013-01-15 22:58:50.027056: ENGINE getting next move from player 1
+2013-01-15 22:58:50.910286: ENGINE validating player 1 move. Player 1 Wall: [1,5] -> [1,7]
+2013-01-15 22:58:50.910831: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:51.028133: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:51.034372: ENGINE uploading move to web engine
+2013-01-15 22:58:51.309520: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:51.310027: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:51.310213: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:51.310354: ENGINE finished processing player 1's move
+2013-01-15 22:58:51.330244: ENGINE notifying player 1 of last move
+2013-01-15 22:58:51.331029: ENGINE finished with next move
+2013-01-15 22:58:51.331312: ENGINE processing move # 17
+2013-01-15 22:58:51.331429: ENGINE getting next move from player 1
+2013-01-15 22:58:51.347711: ENGINE validating player 1 move. Player 1 Move: [5,4] -> [4,4]
+2013-01-15 22:58:51.347941: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:51.348075: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:51.348332: ENGINE uploading move to web engine
+2013-01-15 22:58:51.464278: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:51.472951: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:51.475549: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:51.475765: ENGINE finished processing player 1's move
+2013-01-15 22:58:51.494718: ENGINE notifying player 1 of last move
+2013-01-15 22:58:51.497950: ENGINE finished with next move
+2013-01-15 22:58:51.498218: ENGINE processing move # 18
+2013-01-15 22:58:51.498362: ENGINE getting next move from player 1
+2013-01-15 22:58:52.256593: ENGINE validating player 1 move. Player 1 Wall: [0,2] -> [2,2]
+2013-01-15 22:58:52.256995: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:52.426011: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:52.426481: ENGINE uploading move to web engine
+2013-01-15 22:58:52.615452: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:52.615838: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:52.616016: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:52.616198: ENGINE finished processing player 1's move
+2013-01-15 22:58:52.628294: ENGINE notifying player 1 of last move
+2013-01-15 22:58:52.628694: ENGINE finished with next move
+2013-01-15 22:58:52.628939: ENGINE processing move # 19
+2013-01-15 22:58:52.629048: ENGINE getting next move from player 1
+2013-01-15 22:58:52.644802: ENGINE validating player 1 move. Player 1 Move: [4,4] -> [4,5]
+2013-01-15 22:58:52.645040: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:52.645361: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:52.645508: ENGINE uploading move to web engine
+2013-01-15 22:58:52.747860: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:52.748417: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:52.748656: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:52.748800: ENGINE finished processing player 1's move
+2013-01-15 22:58:52.758204: ENGINE notifying player 1 of last move
+2013-01-15 22:58:52.758737: ENGINE finished with next move
+2013-01-15 22:58:52.758979: ENGINE processing move # 20
+2013-01-15 22:58:52.760262: ENGINE getting next move from player 1
+2013-01-15 22:58:53.727609: ENGINE validating player 1 move. Player 1 Wall: [3,0] -> [3,2]
+2013-01-15 22:58:53.727830: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:53.817468: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:53.817771: ENGINE uploading move to web engine
+2013-01-15 22:58:53.963555: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:53.963887: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:53.964039: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:53.964222: ENGINE finished processing player 1's move
+2013-01-15 22:58:53.976875: ENGINE notifying player 1 of last move
+2013-01-15 22:58:53.977360: ENGINE finished with next move
+2013-01-15 22:58:53.977579: ENGINE processing move # 21
+2013-01-15 22:58:53.977679: ENGINE getting next move from player 1
+2013-01-15 22:58:53.990728: ENGINE validating player 1 move. Player 1 Move: [4,5] -> [4,6]
+2013-01-15 22:58:53.990908: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:53.991212: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:53.991327: ENGINE uploading move to web engine
+2013-01-15 22:58:54.082766: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:54.082945: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:54.083060: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:54.083173: ENGINE finished processing player 1's move
+2013-01-15 22:58:54.098557: ENGINE notifying player 1 of last move
+2013-01-15 22:58:54.099065: ENGINE finished with next move
+2013-01-15 22:58:54.099354: ENGINE processing move # 22
+2013-01-15 22:58:54.102132: ENGINE getting next move from player 1
+2013-01-15 22:58:54.839936: ENGINE validating player 1 move. Player 1 Wall: [4,0] -> [4,2]
+2013-01-15 22:58:54.841036: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:54.934857: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:54.935355: ENGINE uploading move to web engine
+2013-01-15 22:58:55.030688: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:55.030977: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:55.031148: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:55.031324: ENGINE finished processing player 1's move
+2013-01-15 22:58:55.041185: ENGINE notifying player 1 of last move
+2013-01-15 22:58:55.041603: ENGINE finished with next move
+2013-01-15 22:58:55.041786: ENGINE processing move # 23
+2013-01-15 22:58:55.041891: ENGINE getting next move from player 1
+2013-01-15 22:58:55.054113: ENGINE validating player 1 move. Player 1 Move: [4,6] -> [4,7]
+2013-01-15 22:58:55.054264: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:55.054505: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:55.054625: ENGINE uploading move to web engine
+2013-01-15 22:58:55.230907: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:55.231200: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:55.231374: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:55.231460: ENGINE finished processing player 1's move
+2013-01-15 22:58:55.242081: ENGINE notifying player 1 of last move
+2013-01-15 22:58:55.242668: ENGINE finished with next move
+2013-01-15 22:58:55.242820: ENGINE processing move # 24
+2013-01-15 22:58:55.242891: ENGINE getting next move from player 1
+2013-01-15 22:58:55.856022: ENGINE validating player 1 move. Player 1 Wall: [3,7] -> [3,9]
+2013-01-15 22:58:55.856293: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:55.954542: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:55.954757: ENGINE uploading move to web engine
+2013-01-15 22:58:56.178954: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:56.179389: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:56.179673: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:56.179841: ENGINE finished processing player 1's move
+2013-01-15 22:58:56.192569: ENGINE notifying player 1 of last move
+2013-01-15 22:58:56.193014: ENGINE finished with next move
+2013-01-15 22:58:56.194837: ENGINE processing move # 25
+2013-01-15 22:58:56.194995: ENGINE getting next move from player 1
+2013-01-15 22:58:56.209575: ENGINE validating player 1 move. Player 1 Move: [4,7] -> [3,7]
+2013-01-15 22:58:56.209848: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:56.210318: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:56.210666: ENGINE uploading move to web engine
+2013-01-15 22:58:56.344420: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:56.351384: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:56.351818: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:56.352110: ENGINE finished processing player 1's move
+2013-01-15 22:58:56.381642: ENGINE notifying player 1 of last move
+2013-01-15 22:58:56.382830: ENGINE finished with next move
+2013-01-15 22:58:56.383194: ENGINE processing move # 26
+2013-01-15 22:58:56.384160: ENGINE getting next move from player 1
+2013-01-15 22:58:57.596357: ENGINE validating player 1 move. Player 1 Wall: [3,7] -> [5,7]
+2013-01-15 22:58:57.601838: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:57.873664: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:57.874017: ENGINE uploading move to web engine
+2013-01-15 22:58:57.984721: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:57.990106: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:57.990339: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:57.990490: ENGINE finished processing player 1's move
+2013-01-15 22:58:58.006069: ENGINE notifying player 1 of last move
+2013-01-15 22:58:58.006550: ENGINE finished with next move
+2013-01-15 22:58:58.006777: ENGINE processing move # 27
+2013-01-15 22:58:58.007110: ENGINE getting next move from player 1
+2013-01-15 22:58:58.022305: ENGINE validating player 1 move. Player 1 Move: [3,7] -> [4,7]
+2013-01-15 22:58:58.022474: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:58.022776: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:58.022932: ENGINE uploading move to web engine
+2013-01-15 22:58:58.126449: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:58.130829: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:58.131232: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:58.131445: ENGINE finished processing player 1's move
+2013-01-15 22:58:58.153930: ENGINE notifying player 1 of last move
+2013-01-15 22:58:58.154796: ENGINE finished with next move
+2013-01-15 22:58:58.154952: ENGINE processing move # 28
+2013-01-15 22:58:58.156073: ENGINE getting next move from player 1
+2013-01-15 22:58:59.357789: ENGINE validating player 1 move. Player 1 Wall: [3,5] -> [3,7]
+2013-01-15 22:58:59.358158: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:59.562886: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:59.563661: ENGINE uploading move to web engine
+2013-01-15 22:58:59.874272: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:58:59.874912: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:58:59.875303: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:58:59.875537: ENGINE finished processing player 1's move
+2013-01-15 22:58:59.890178: ENGINE notifying player 1 of last move
+2013-01-15 22:58:59.890733: ENGINE finished with next move
+2013-01-15 22:58:59.890984: ENGINE processing move # 29
+2013-01-15 22:58:59.891127: ENGINE getting next move from player 1
+2013-01-15 22:58:59.903976: ENGINE validating player 1 move. Player 1 Move: [4,7] -> [5,7]
+2013-01-15 22:58:59.904259: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:58:59.904789: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:58:59.905011: ENGINE uploading move to web engine
+2013-01-15 22:59:00.021183: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:00.021744: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:00.021960: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:00.021982: ENGINE finished processing player 1's move
+2013-01-15 22:59:00.032032: ENGINE notifying player 1 of last move
+2013-01-15 22:59:00.032618: ENGINE finished with next move
+2013-01-15 22:59:00.032934: ENGINE processing move # 30
+2013-01-15 22:59:00.033079: ENGINE getting next move from player 1
+2013-01-15 22:59:01.262917: ENGINE validating player 1 move. Player 1 Wall: [3,3] -> [3,5]
+2013-01-15 22:59:01.263284: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:01.495926: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:01.496320: ENGINE uploading move to web engine
+2013-01-15 22:59:01.680878: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:01.681648: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:01.682207: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:01.682403: ENGINE finished processing player 1's move
+2013-01-15 22:59:01.706278: ENGINE notifying player 1 of last move
+2013-01-15 22:59:01.706840: ENGINE finished with next move
+2013-01-15 22:59:01.708462: ENGINE processing move # 31
+2013-01-15 22:59:01.708651: ENGINE getting next move from player 1
+2013-01-15 22:59:01.726514: ENGINE validating player 1 move. Player 1 Move: [5,7] -> [5,6]
+2013-01-15 22:59:01.726759: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:01.727153: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:01.727298: ENGINE uploading move to web engine
+2013-01-15 22:59:01.934432: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:01.934816: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:01.935097: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:01.935732: ENGINE finished processing player 1's move
+2013-01-15 22:59:01.946191: ENGINE notifying player 1 of last move
+2013-01-15 22:59:01.946725: ENGINE finished with next move
+2013-01-15 22:59:01.947006: ENGINE processing move # 32
+2013-01-15 22:59:01.947236: ENGINE getting next move from player 1
+2013-01-15 22:59:03.122423: ENGINE validating player 1 move. Player 1 Wall: [5,0] -> [5,2]
+2013-01-15 22:59:03.122535: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:03.376579: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:03.377184: ENGINE uploading move to web engine
+2013-01-15 22:59:03.557913: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:03.558279: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:03.558438: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:03.558708: ENGINE finished processing player 1's move
+2013-01-15 22:59:03.568381: ENGINE notifying player 1 of last move
+2013-01-15 22:59:03.568773: ENGINE finished with next move
+2013-01-15 22:59:03.568986: ENGINE processing move # 33
+2013-01-15 22:59:03.569096: ENGINE getting next move from player 1
+2013-01-15 22:59:03.589951: ENGINE validating player 1 move. Player 1 Move: [5,6] -> [5,5]
+2013-01-15 22:59:03.590179: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:03.590569: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:03.590771: ENGINE uploading move to web engine
+2013-01-15 22:59:03.685456: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:03.686035: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:03.686260: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:03.686406: ENGINE finished processing player 1's move
+2013-01-15 22:59:03.707117: ENGINE notifying player 1 of last move
+2013-01-15 22:59:03.707654: ENGINE finished with next move
+2013-01-15 22:59:03.707906: ENGINE processing move # 34
+2013-01-15 22:59:03.708047: ENGINE getting next move from player 1
+2013-01-15 22:59:04.500943: ENGINE validating player 1 move. Player 1 Wall: [6,0] -> [6,2]
+2013-01-15 22:59:04.501343: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:04.634257: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:04.641243: ENGINE uploading move to web engine
+2013-01-15 22:59:04.857568: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:04.858273: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:04.858427: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:04.858544: ENGINE finished processing player 1's move
+2013-01-15 22:59:04.869532: ENGINE notifying player 1 of last move
+2013-01-15 22:59:04.870093: ENGINE finished with next move
+2013-01-15 22:59:04.870308: ENGINE processing move # 35
+2013-01-15 22:59:04.870406: ENGINE getting next move from player 1
+2013-01-15 22:59:04.886526: ENGINE validating player 1 move. Player 1 Move: [5,5] -> [4,5]
+2013-01-15 22:59:04.886795: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:04.887166: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:04.888358: ENGINE uploading move to web engine
+2013-01-15 22:59:05.006485: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:05.006880: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:05.007137: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:05.007345: ENGINE finished processing player 1's move
+2013-01-15 22:59:05.035637: ENGINE notifying player 1 of last move
+2013-01-15 22:59:05.036322: ENGINE finished with next move
+2013-01-15 22:59:05.041491: ENGINE processing move # 36
+2013-01-15 22:59:05.041950: ENGINE getting next move from player 1
+2013-01-15 22:59:06.236412: ENGINE validating player 1 move. Player 1 Wall: [3,3] -> [5,3]
+2013-01-15 22:59:06.236822: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:06.421348: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:06.421863: ENGINE uploading move to web engine
+2013-01-15 22:59:06.584845: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:06.586646: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:06.586893: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:06.587109: ENGINE finished processing player 1's move
+2013-01-15 22:59:06.619408: ENGINE notifying player 1 of last move
+2013-01-15 22:59:06.619981: ENGINE finished with next move
+2013-01-15 22:59:06.620277: ENGINE processing move # 37
+2013-01-15 22:59:06.620901: ENGINE getting next move from player 1
+2013-01-15 22:59:06.648070: ENGINE validating player 1 move. Player 1 Move: [4,5] -> [4,4]
+2013-01-15 22:59:06.655429: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:06.655991: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:06.656168: ENGINE uploading move to web engine
+2013-01-15 22:59:06.885842: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:06.886257: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:06.886437: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:06.886563: ENGINE finished processing player 1's move
+2013-01-15 22:59:06.906347: ENGINE notifying player 1 of last move
+2013-01-15 22:59:06.906836: ENGINE finished with next move
+2013-01-15 22:59:06.907126: ENGINE processing move # 38
+2013-01-15 22:59:06.907234: ENGINE getting next move from player 1
+2013-01-15 22:59:07.638314: ENGINE validating player 1 move. Player 1 Wall: [5,3] -> [7,3]
+2013-01-15 22:59:07.638753: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:07.883335: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:07.883681: ENGINE uploading move to web engine
+2013-01-15 22:59:08.075141: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:08.075450: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:08.075584: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:08.075789: ENGINE finished processing player 1's move
+2013-01-15 22:59:08.088091: ENGINE notifying player 1 of last move
+2013-01-15 22:59:08.088716: ENGINE finished with next move
+2013-01-15 22:59:08.088972: ENGINE processing move # 39
+2013-01-15 22:59:08.089108: ENGINE getting next move from player 1
+2013-01-15 22:59:08.106495: ENGINE validating player 1 move. Player 1 Move: [4,4] -> [5,4]
+2013-01-15 22:59:08.106733: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:08.107262: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:08.107503: ENGINE uploading move to web engine
+2013-01-15 22:59:08.257521: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:08.261298: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:08.261620: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:08.261834: ENGINE finished processing player 1's move
+2013-01-15 22:59:08.286770: ENGINE notifying player 1 of last move
+2013-01-15 22:59:08.288397: ENGINE finished with next move
+2013-01-15 22:59:08.288805: ENGINE processing move # 40
+2013-01-15 22:59:08.289042: ENGINE getting next move from player 1
+2013-01-15 22:59:08.304117: ENGINE validating player 1 move. Player 1 Move: [5,4] -> [6,4]
+2013-01-15 22:59:08.304603: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:08.305199: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:08.305414: ENGINE uploading move to web engine
+2013-01-15 22:59:08.444297: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:08.448827: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:08.449210: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:08.449409: ENGINE finished processing player 1's move
+2013-01-15 22:59:08.466680: ENGINE notifying player 1 of last move
+2013-01-15 22:59:08.467714: ENGINE finished with next move
+2013-01-15 22:59:08.468179: ENGINE processing move # 41
+2013-01-15 22:59:08.468453: ENGINE getting next move from player 1
+2013-01-15 22:59:08.490175: ENGINE validating player 1 move. Player 1 Move: [6,4] -> [7,4]
+2013-01-15 22:59:08.490429: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:08.490938: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:08.491854: ENGINE uploading move to web engine
+2013-01-15 22:59:08.715716: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:08.716608: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:08.716887: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:08.716988: ENGINE finished processing player 1's move
+2013-01-15 22:59:08.738746: ENGINE notifying player 1 of last move
+2013-01-15 22:59:08.739325: ENGINE finished with next move
+2013-01-15 22:59:08.739626: ENGINE processing move # 42
+2013-01-15 22:59:08.739758: ENGINE getting next move from player 1
+2013-01-15 22:59:08.761395: ENGINE validating player 1 move. Player 1 Move: [7,4] -> [7,3]
+2013-01-15 22:59:08.761594: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:08.762649: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:08.762863: ENGINE uploading move to web engine
+2013-01-15 22:59:08.931035: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:08.931815: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:08.932054: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:08.932281: ENGINE finished processing player 1's move
+2013-01-15 22:59:08.943365: ENGINE notifying player 1 of last move
+2013-01-15 22:59:08.944087: ENGINE finished with next move
+2013-01-15 22:59:08.944437: ENGINE processing move # 43
+2013-01-15 22:59:08.944602: ENGINE getting next move from player 1
+2013-01-15 22:59:08.959779: ENGINE validating player 1 move. Player 1 Move: [7,3] -> [7,2]
+2013-01-15 22:59:08.960012: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:08.960505: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:08.960695: ENGINE uploading move to web engine
+2013-01-15 22:59:09.082739: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:09.083205: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:09.083431: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:09.083620: ENGINE finished processing player 1's move
+2013-01-15 22:59:09.104827: ENGINE notifying player 1 of last move
+2013-01-15 22:59:09.105474: ENGINE finished with next move
+2013-01-15 22:59:09.105799: ENGINE processing move # 44
+2013-01-15 22:59:09.105951: ENGINE getting next move from player 1
+2013-01-15 22:59:09.123822: ENGINE validating player 1 move. Player 1 Move: [7,2] -> [6,2]
+2013-01-15 22:59:09.124090: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:09.124657: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:09.124873: ENGINE uploading move to web engine
+2013-01-15 22:59:09.263648: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:09.264234: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:09.264565: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:09.264734: ENGINE finished processing player 1's move
+2013-01-15 22:59:09.285131: ENGINE notifying player 1 of last move
+2013-01-15 22:59:09.285801: ENGINE finished with next move
+2013-01-15 22:59:09.286131: ENGINE processing move # 45
+2013-01-15 22:59:09.286278: ENGINE getting next move from player 1
+2013-01-15 22:59:09.299489: ENGINE validating player 1 move. Player 1 Move: [6,2] -> [5,2]
+2013-01-15 22:59:09.299985: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:09.300590: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:09.301090: ENGINE uploading move to web engine
+2013-01-15 22:59:09.598192: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:09.598897: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:09.604346: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:09.604587: ENGINE finished processing player 1's move
+2013-01-15 22:59:09.631385: ENGINE notifying player 1 of last move
+2013-01-15 22:59:09.633147: ENGINE finished with next move
+2013-01-15 22:59:09.633499: ENGINE processing move # 46
+2013-01-15 22:59:09.633648: ENGINE getting next move from player 1
+2013-01-15 22:59:09.649220: ENGINE validating player 1 move. Player 1 Move: [5,2] -> [4,2]
+2013-01-15 22:59:09.664063: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:09.664751: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:09.664943: ENGINE uploading move to web engine
+2013-01-15 22:59:09.841411: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:09.842166: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:09.842382: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:09.842465: ENGINE finished processing player 1's move
+2013-01-15 22:59:09.856958: ENGINE notifying player 1 of last move
+2013-01-15 22:59:09.857527: ENGINE finished with next move
+2013-01-15 22:59:09.857784: ENGINE processing move # 47
+2013-01-15 22:59:09.858720: ENGINE getting next move from player 1
+2013-01-15 22:59:09.872753: ENGINE validating player 1 move. Player 1 Move: [4,2] -> [3,2]
+2013-01-15 22:59:09.873054: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:09.873701: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:09.873993: ENGINE uploading move to web engine
+2013-01-15 22:59:09.973976: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:09.977686: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:09.980727: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:09.981055: ENGINE finished processing player 1's move
+2013-01-15 22:59:10.001160: ENGINE notifying player 1 of last move
+2013-01-15 22:59:10.001968: ENGINE finished with next move
+2013-01-15 22:59:10.002282: ENGINE processing move # 48
+2013-01-15 22:59:10.002487: ENGINE getting next move from player 1
+2013-01-15 22:59:10.013941: ENGINE validating player 1 move. Player 1 Move: [3,2] -> [2,2]
+2013-01-15 22:59:10.014142: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:10.014751: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:10.014860: ENGINE uploading move to web engine
+2013-01-15 22:59:10.267664: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:10.268208: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:10.268443: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:10.268608: ENGINE finished processing player 1's move
+2013-01-15 22:59:10.283125: ENGINE notifying player 1 of last move
+2013-01-15 22:59:10.283610: ENGINE finished with next move
+2013-01-15 22:59:10.283921: ENGINE processing move # 49
+2013-01-15 22:59:10.284065: ENGINE getting next move from player 1
+2013-01-15 22:59:10.310134: ENGINE validating player 1 move. Player 1 Move: [2,2] -> [2,3]
+2013-01-15 22:59:10.310381: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:10.310924: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:10.310947: ENGINE uploading move to web engine
+2013-01-15 22:59:10.450189: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:10.452632: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:10.452850: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:10.458248: ENGINE finished processing player 1's move
+2013-01-15 22:59:10.471576: ENGINE notifying player 1 of last move
+2013-01-15 22:59:10.472216: ENGINE finished with next move
+2013-01-15 22:59:10.472615: ENGINE processing move # 50
+2013-01-15 22:59:10.472847: ENGINE getting next move from player 1
+2013-01-15 22:59:10.486935: ENGINE validating player 1 move. Player 1 Move: [2,3] -> [2,4]
+2013-01-15 22:59:10.487385: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:10.488098: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:10.488422: ENGINE uploading move to web engine
+2013-01-15 22:59:10.672082: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:10.672499: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:10.672712: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:10.672897: ENGINE finished processing player 1's move
+2013-01-15 22:59:10.688900: ENGINE notifying player 1 of last move
+2013-01-15 22:59:10.689994: ENGINE finished with next move
+2013-01-15 22:59:10.690280: ENGINE processing move # 51
+2013-01-15 22:59:10.694036: ENGINE getting next move from player 1
+2013-01-15 22:59:10.726176: ENGINE validating player 1 move. Player 1 Move: [2,4] -> [2,5]
+2013-01-15 22:59:10.726398: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:10.726596: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:10.727565: ENGINE uploading move to web engine
+2013-01-15 22:59:10.925927: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:10.926545: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:10.926963: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:10.927054: ENGINE finished processing player 1's move
+2013-01-15 22:59:10.937792: ENGINE notifying player 1 of last move
+2013-01-15 22:59:10.938461: ENGINE finished with next move
+2013-01-15 22:59:10.938833: ENGINE processing move # 52
+2013-01-15 22:59:10.938977: ENGINE getting next move from player 1
+2013-01-15 22:59:10.953711: ENGINE validating player 1 move. Player 1 Move: [2,5] -> [2,6]
+2013-01-15 22:59:10.954138: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:10.954666: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:10.954857: ENGINE uploading move to web engine
+2013-01-15 22:59:11.059790: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:11.060323: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:11.060510: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:11.060734: ENGINE finished processing player 1's move
+2013-01-15 22:59:11.072203: ENGINE notifying player 1 of last move
+2013-01-15 22:59:11.072572: ENGINE finished with next move
+2013-01-15 22:59:11.072820: ENGINE processing move # 53
+2013-01-15 22:59:11.072951: ENGINE getting next move from player 1
+2013-01-15 22:59:11.085894: ENGINE validating player 1 move. Player 1 Move: [2,6] -> [2,7]
+2013-01-15 22:59:11.086110: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:11.087074: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:11.092621: ENGINE uploading move to web engine
+2013-01-15 22:59:11.241803: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:11.242255: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:11.242441: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:11.242769: ENGINE finished processing player 1's move
+2013-01-15 22:59:11.259730: ENGINE notifying player 1 of last move
+2013-01-15 22:59:11.260448: ENGINE finished with next move
+2013-01-15 22:59:11.260739: ENGINE processing move # 54
+2013-01-15 22:59:11.260867: ENGINE getting next move from player 1
+2013-01-15 22:59:11.277283: ENGINE validating player 1 move. Player 1 Move: [2,7] -> [2,8]
+2013-01-15 22:59:11.277582: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:11.282752: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:11.283059: ENGINE uploading move to web engine
+2013-01-15 22:59:11.493607: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:11.494137: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:11.495702: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:11.495874: ENGINE finished processing player 1's move
+2013-01-15 22:59:11.509443: ENGINE notifying player 1 of last move
+2013-01-15 22:59:11.509998: ENGINE finished with next move
+2013-01-15 22:59:11.510278: ENGINE processing move # 55
+2013-01-15 22:59:11.510402: ENGINE getting next move from player 1
+2013-01-15 22:59:11.525420: ENGINE validating player 1 move. Player 1 Move: [2,8] -> [1,8]
+2013-01-15 22:59:11.526185: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:11.526799: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:11.526990: ENGINE uploading move to web engine
+2013-01-15 22:59:11.759707: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:11.760339: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:11.760544: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:11.760719: ENGINE finished processing player 1's move
+2013-01-15 22:59:11.779466: ENGINE notifying player 1 of last move
+2013-01-15 22:59:11.780038: ENGINE finished with next move
+2013-01-15 22:59:11.780304: ENGINE processing move # 56
+2013-01-15 22:59:11.780453: ENGINE getting next move from player 1
+2013-01-15 22:59:11.793421: ENGINE validating player 1 move. Player 1 Move: [1,8] -> [1,7]
+2013-01-15 22:59:11.793648: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:11.794229: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:11.794419: ENGINE uploading move to web engine
+2013-01-15 22:59:11.910157: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:11.910838: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:11.911060: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:11.911223: ENGINE finished processing player 1's move
+2013-01-15 22:59:11.921594: ENGINE notifying player 1 of last move
+2013-01-15 22:59:11.922379: ENGINE finished with next move
+2013-01-15 22:59:11.922786: ENGINE processing move # 57
+2013-01-15 22:59:11.922923: ENGINE getting next move from player 1
+2013-01-15 22:59:11.932883: ENGINE validating player 1 move. Player 1 Move: [1,7] -> [1,6]
+2013-01-15 22:59:11.933136: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:11.933638: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:11.933754: ENGINE uploading move to web engine
+2013-01-15 22:59:12.093353: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:12.097714: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:12.097986: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:12.098161: ENGINE finished processing player 1's move
+2013-01-15 22:59:12.106382: ENGINE notifying player 1 of last move
+2013-01-15 22:59:12.106782: ENGINE finished with next move
+2013-01-15 22:59:12.107053: ENGINE processing move # 58
+2013-01-15 22:59:12.107211: ENGINE getting next move from player 1
+2013-01-15 22:59:12.127292: ENGINE validating player 1 move. Player 1 Move: [1,6] -> [1,5]
+2013-01-15 22:59:12.127555: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:12.128407: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:12.128807: ENGINE uploading move to web engine
+2013-01-15 22:59:12.404297: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:12.404733: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:12.405770: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:12.406124: ENGINE finished processing player 1's move
+2013-01-15 22:59:12.425870: ENGINE notifying player 1 of last move
+2013-01-15 22:59:12.426479: ENGINE finished with next move
+2013-01-15 22:59:12.426860: ENGINE processing move # 59
+2013-01-15 22:59:12.427000: ENGINE getting next move from player 1
+2013-01-15 22:59:12.441101: ENGINE validating player 1 move. Player 1 Move: [1,5] -> [1,4]
+2013-01-15 22:59:12.441363: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:12.441690: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:12.441924: ENGINE uploading move to web engine
+2013-01-15 22:59:12.587007: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:12.587455: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:12.587689: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:12.587841: ENGINE finished processing player 1's move
+2013-01-15 22:59:12.600183: ENGINE notifying player 1 of last move
+2013-01-15 22:59:12.600761: ENGINE finished with next move
+2013-01-15 22:59:12.601000: ENGINE processing move # 60
+2013-01-15 22:59:12.601141: ENGINE getting next move from player 1
+2013-01-15 22:59:12.621405: ENGINE validating player 1 move. Player 1 Move: [1,4] -> [1,3]
+2013-01-15 22:59:12.621640: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:12.622139: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:12.622351: ENGINE uploading move to web engine
+2013-01-15 22:59:12.789494: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:12.789877: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:12.790165: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:12.790328: ENGINE finished processing player 1's move
+2013-01-15 22:59:12.809162: ENGINE notifying player 1 of last move
+2013-01-15 22:59:12.809896: ENGINE finished with next move
+2013-01-15 22:59:12.810189: ENGINE processing move # 61
+2013-01-15 22:59:12.810310: ENGINE getting next move from player 1
+2013-01-15 22:59:12.824296: ENGINE validating player 1 move. Player 1 Move: [1,3] -> [1,2]
+2013-01-15 22:59:12.824519: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:12.825018: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:12.825207: ENGINE uploading move to web engine
+2013-01-15 22:59:13.073337: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:13.073710: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:13.073899: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:13.074011: ENGINE finished processing player 1's move
+2013-01-15 22:59:13.092050: ENGINE notifying player 1 of last move
+2013-01-15 22:59:13.092678: ENGINE finished with next move
+2013-01-15 22:59:13.092970: ENGINE processing move # 62
+2013-01-15 22:59:13.093140: ENGINE getting next move from player 1
+2013-01-15 22:59:13.114935: ENGINE validating player 1 move. Player 1 Move: [1,2] -> [0,2]
+2013-01-15 22:59:13.115246: ENGINE calling STUDENT ENGINE validate_move
+2013-01-15 22:59:13.116103: STUDENT ENGINE validate_move call successfully returned
+2013-01-15 22:59:13.116417: ENGINE uploading move to web engine
+2013-01-15 22:59:13.275733: ENGINE detects correct move validation by STUDENT ENGINE
+2013-01-15 22:59:13.276289: ENGINE calling STUDENT ENGINE last_move
+2013-01-15 22:59:13.277667: STUDENT ENGINE last_move call successfully returned
+2013-01-15 22:59:13.277900: ENGINE finished processing player 1's move
+2013-01-15 22:59:13.292552: ENGINE notifying player 1 of last move
+2013-01-15 22:59:13.294194: ENGINE finished with next move
+2013-01-15 22:59:13.294542: ENGINE shutting down
