@@ -406,17 +406,18 @@ def initialize_player(engineData, playerNum):
         Parameters
             engineData: the data originally built by this module in init()
                         (used to establish the context of the move)
-            playerNum: the number of the player (in [0 .. n-1] for n players)
+            playerNum: the number of the player (in [1 .. n] for n players)
 
         returns: the engine data, modified
     """
     
     # Step 1
     # Fetch the reference to the model from your engineData.
-    model = None
+    model = engineData.model
     
     # Step 2
     # Get the player module from the model using model.getPlayerModule.
+    playerModule = model.getPlayerModule(playerNum)
     
     # Step 3
     # Call the chosen player module's init function with the appropriate data.
@@ -427,11 +428,18 @@ def initialize_player(engineData, playerNum):
     #     NUM_WALLS key in the config dictionary
     # playerHomes may only include home locations for active players in the game
     #     and it must be a tuple, not a list.
+    logger = engineData.logger
+    numWalls = engineData.config['NUM_WALLS']
+    playerHomes = model.playerHomes
+    
+    playerModule.init(logger, playerNum, numWalls, playerHomes)
+    
     
     # Step 4
     # Save the player data using StudentEngineModel's setPlayerData method.
     # The StudentEngineModel object should have been saved when your init
     # function was called.
+    model.setPlayerData(playerNum, playerModule)
     
     return engineData
 
@@ -451,7 +459,7 @@ def next_move(engineData):
         Parameters
             engineData: the data originally built by this module in init()
                         (used to establish the context of the move)
-            playerNum: the number of the player (in [0 .. n-1] for n players)
+            playerNum: the number of the player (in [1 .. n] for n players)
 
         returns: the engine data, modified by the actions described above
     """
@@ -460,6 +468,7 @@ def next_move(engineData):
     # Get playerMove object from the current player using player module's move
     # function.
     # (At this point you do not need to record any player's playerData.)
+    
     
     # Step 2
     # Validate the move.

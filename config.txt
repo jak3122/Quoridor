@@ -95,7 +95,7 @@ STDOUT_LOGGING True
 STUDENT_ENGINE_MODULE jak3122
 
 # Student engine mode (1-4, or 0 to disable)
-STUDENT_ENGINE_MODE 2
+STUDENT_ENGINE_MODE 3
 
 # Number of walls to place during board generation (part 4)
 # This number is per player, and less than the maximum (see NUM_WALLS)
