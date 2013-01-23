@@ -1,0 +1,29 @@
+2013-01-22 23:25:24.242408: ENGINE starting
+2013-01-22 23:25:24.247587: ENGINE loading STUDENT ENGINE part 3
+2013-01-22 23:25:24.253601: ENGINE loaded player module: OKComputer as player 1
+2013-01-22 23:25:24.254376: ENGINE loaded player module: Human as player 2
+2013-01-22 23:25:24.254566: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-22 23:25:27.348845: ENGINE calling STUDENT ENGINE init
+2013-01-22 23:25:27.349492: STUDENT ENGINE init call successfully returned
+2013-01-22 23:25:27.349627: ENGINE calling init() for player 1
+2013-01-22 23:25:27.349676: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 23:25:27.350552: OKComputer initialized as player 1
+2013-01-22 23:25:27.350763: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 23:25:27.350900: ENGINE calling init() for player 2
+2013-01-22 23:25:27.351015: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 23:25:27.351147: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 23:25:27.358780: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.69330/partone.0/apikey.36bc8c65d1d4af66485/public.73dd9f8bd997280b0c58dd8c47a3d06d825f38b950ff66373c2eb/animations.500/
+2013-01-22 23:25:27.359145: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 23:25:27.365091: ENGINE uploading move to web engine
+2013-01-22 23:25:30.217667: STUDENT ENGINE next_move call successfully returned
+2013-01-22 23:25:30.218591: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 23:26:54.463217: ERROR: 'NoneType' object is not subscriptable
+2013-01-22 23:26:54.464925: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 472, in next_move
+    move=playermodule.move(engineData.model.getPlayerData(playerNum)).getCopy()
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\StudentPlayers\Human\__init__.py", line 82, in move
+TypeError: 'NoneType' object is not subscriptable
+

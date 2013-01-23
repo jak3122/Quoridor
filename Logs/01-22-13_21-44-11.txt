@@ -1,0 +1,443 @@
+2013-01-22 21:44:11.339387: ENGINE starting
+2013-01-22 21:44:11.342233: ENGINE loading STUDENT ENGINE part 3
+2013-01-22 21:44:11.357560: ENGINE loaded player module: OKComputer as player 1
+2013-01-22 21:44:11.358383: ENGINE loaded player module: Human as player 2
+2013-01-22 21:44:11.358587: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-22 21:44:13.206512: ENGINE calling STUDENT ENGINE init
+2013-01-22 21:44:13.207073: STUDENT ENGINE init call successfully returned
+2013-01-22 21:44:13.207467: ENGINE calling init() for player 1
+2013-01-22 21:44:13.207519: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 21:44:13.208938: OKComputer initialized as player 1
+2013-01-22 21:44:13.209133: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 21:44:13.209271: ENGINE calling init() for player 2
+2013-01-22 21:44:13.209430: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 21:44:13.209564: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 21:44:13.253155: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.68130/partone.0/apikey.36bc8c65d1d4af66485/public.e69aa85a89d2d07af11d60e31369dc904f0ac66750ff4e7d166a6/animations.500/
+2013-01-22 21:44:13.253695: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.263256: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.268015: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.268212: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.268441: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.268566: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.268716: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.268875: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.269192: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.269355: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.269502: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.269617: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.269766: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.277868: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.285828: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.286074: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.286389: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.286528: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.286882: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.287064: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.287382: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.287507: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.287650: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.287804: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.287956: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.288069: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.288183: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.288183: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.288322: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.288442: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.288580: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.288699: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.288898: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.289013: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.289149: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.289267: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.289446: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.292286: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.292743: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.302340: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.302690: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.309793: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.316913: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.317334: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.317608: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.317856: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.318064: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.318233: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.318470: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.318636: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.318853: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.324423: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.324758: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.324906: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.325288: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.325432: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.325780: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.325991: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.331418: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.331626: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.331847: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.331972: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.332123: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.332171: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.332268: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.332422: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.332598: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.332752: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.335084: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.335257: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.338395: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.338636: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.350564: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.364548: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.364936: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.365109: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.365341: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.365484: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.365642: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.365820: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.365970: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.366087: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.366289: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.366456: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.370153: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.370404: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.375413: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.376130: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.376267: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.376495: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.376670: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.378543: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.378719: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.378874: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.380225: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.380360: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.380498: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.380650: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.380958: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.381502: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.381689: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.382175: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.382327: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.382442: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.382602: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.383301: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.383927: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.387243: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.391092: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.391316: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.391480: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.391599: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.391920: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.392053: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.392203: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.392762: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.392996: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.393240: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.396539: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.396710: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.396950: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.397069: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.397206: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.397299: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.397299: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.397401: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.397584: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.397711: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.397851: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.397995: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.398130: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.398381: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.398701: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.399604: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.399826: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.399957: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.400089: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.400191: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.400366: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.401436: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.401588: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.401694: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.401866: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.405926: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.406358: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.406588: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.406772: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.406890: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.407029: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.407250: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.407405: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.407512: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.407686: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.407795: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.407932: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.408035: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.408075: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.408173: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.408364: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.408491: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.412945: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.416133: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.416428: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.416559: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.416701: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.416863: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.417004: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.417114: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.417246: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.417393: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.417525: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.417629: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.417763: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.417905: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.418034: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.418140: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.421813: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.422036: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.422420: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.422542: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.422688: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.422711: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.422752: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.422947: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.423088: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.423193: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.424068: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.424205: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.424377: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.424489: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.424618: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.424729: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.424915: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.425023: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.425149: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.425287: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.425505: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.425610: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.425736: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.425894: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.426025: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.426129: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.426277: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.426452: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.426582: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.426777: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.426971: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.427084: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.436699: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.436996: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.437327: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.437485: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.437659: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.437778: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.437922: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.438029: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.438199: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.438315: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.438444: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.442088: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.442859: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.443060: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.443219: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.447964: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.448277: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.448429: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.448683: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.448805: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.448945: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.452168: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.452451: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.452584: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.452746: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.452893: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.453030: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.463736: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.464270: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.464447: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.464641: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.464823: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.464991: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.467957: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.468157: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.468219: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.468219: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.468363: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.468501: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.468616: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.468746: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.468885: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.469016: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.471492: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.471670: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.472266: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.472485: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.472720: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.472917: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.475628: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.475828: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.479052: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.479404: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.479538: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.479687: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.479837: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.479971: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.480075: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.481597: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.481865: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.482008: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.482113: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.482385: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.482494: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.482621: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.482723: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.482911: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.483016: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.483260: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.488174: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.488868: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.489020: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.489174: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.489326: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.489483: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.489593: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.489728: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.489912: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.490050: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.490338: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.490707: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.492524: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.492790: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.492955: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.493141: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.493354: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.493522: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.493659: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.493919: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.494027: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.494154: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.494287: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.494428: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.494531: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.494656: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.494922: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.495188: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.496235: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.496436: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.496542: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.496674: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.496775: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.496916: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.497022: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.497309: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.497422: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.497548: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.497649: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.500351: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.500493: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.507824: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.508050: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.508111: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.508285: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.508492: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.508617: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.508754: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.508903: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.509038: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.509152: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.509310: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.509425: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.509555: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.509665: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.509780: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.509944: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.510090: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.510245: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.510374: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.513289: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.513557: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.513736: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.514044: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.514202: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.531582: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.540181: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.551662: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.574945: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.575292: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.575450: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.575613: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.575787: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.575940: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.576056: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.584964: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.587539: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.587815: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.587949: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.588071: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.588144: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.589913: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.590219: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.590447: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.592050: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.592246: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.598139: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.598432: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.602989: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.603365: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.611375: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.611660: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.611799: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.611958: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.612109: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.615597: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.615788: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.628198: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.628497: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.628704: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.628839: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.629186: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.629314: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.629513: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.629633: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.631852: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.641168: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.641507: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.642452: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.642662: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645008: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645142: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645195: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645314: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645367: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645427: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645466: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645532: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645570: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645627: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645663: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645719: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645798: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645864: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645901: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.645956: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.645991: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646046: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646083: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646149: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646207: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646406: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646458: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646515: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646551: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646606: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646647: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.646708: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.646871: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647092: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.647220: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647344: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.647391: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647450: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.647486: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647540: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.647576: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647631: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 21:44:13.647666: STUDENT ENGINE next_move call successfully returned
+2013-01-22 21:44:13.647720: ENGINE calling STUDENT ENGINE next_move

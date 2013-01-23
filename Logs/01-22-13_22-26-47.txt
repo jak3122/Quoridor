@@ -1,0 +1,23 @@
+2013-01-22 22:26:47.172324: ENGINE starting
+2013-01-22 22:26:47.178517: ENGINE loading STUDENT ENGINE part 3
+2013-01-22 22:26:47.199548: ENGINE loaded player module: OKComputer as player 1
+2013-01-22 22:26:47.201504: ENGINE loaded player module: Human as player 2
+2013-01-22 22:26:47.201735: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-22 22:26:49.466216: ENGINE calling STUDENT ENGINE init
+2013-01-22 22:26:49.470032: STUDENT ENGINE init call successfully returned
+2013-01-22 22:26:49.470610: ENGINE calling init() for player 1
+2013-01-22 22:26:49.470806: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 22:26:49.472092: OKComputer initialized as player 1
+2013-01-22 22:26:49.472375: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 22:26:49.472545: ENGINE calling init() for player 2
+2013-01-22 22:26:49.472716: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 22:26:49.473013: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 22:26:49.484484: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.68617/partone.0/apikey.36bc8c65d1d4af66485/public.6dbd8872a74b381ab79ba25c20770df00e8d07fd50ff58794dc32/animations.500/
+2013-01-22 22:26:49.485007: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 22:26:49.485270: ERROR: next_move() takes exactly 2 arguments (1 given)
+2013-01-22 22:26:49.493617: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+TypeError: next_move() takes exactly 2 arguments (1 given)
+

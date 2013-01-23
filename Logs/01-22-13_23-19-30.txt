@@ -1,0 +1,25 @@
+2013-01-22 23:19:30.141964: ENGINE starting
+2013-01-22 23:19:30.152507: ENGINE loading STUDENT ENGINE part 3
+2013-01-22 23:19:30.170526: ENGINE loaded player module: OKComputer as player 1
+2013-01-22 23:19:30.171320: ENGINE loaded player module: Human as player 2
+2013-01-22 23:19:30.171525: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-22 23:19:32.385689: ENGINE calling STUDENT ENGINE init
+2013-01-22 23:19:32.386765: STUDENT ENGINE init call successfully returned
+2013-01-22 23:19:32.386928: ENGINE calling init() for player 1
+2013-01-22 23:19:32.386991: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 23:19:32.388619: OKComputer initialized as player 1
+2013-01-22 23:19:32.388787: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 23:19:32.388925: ENGINE calling init() for player 2
+2013-01-22 23:19:32.389014: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 23:19:32.389014: STUDENT ENGINE initialize_player call successfully returned
+2013-01-22 23:19:32.397283: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.69234/partone.0/apikey.36bc8c65d1d4af66485/public.96986a13d33c7df99ff3fb4bf311db815d28888250ff64d434f18/animations.500/
+2013-01-22 23:19:32.397816: ENGINE calling STUDENT ENGINE next_move
+2013-01-22 23:19:32.398027: ERROR: 'StudentEngineModel' object has no attribute 'playerMoves'
+2013-01-22 23:19:32.413455: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 467, in next_move
+    numPlayers=len(engineData.model.playerMoves)
+AttributeError: 'StudentEngineModel' object has no attribute 'playerMoves'
+

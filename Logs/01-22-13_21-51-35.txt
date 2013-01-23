@@ -1,0 +1,52 @@
+2013-01-22 21:51:35.745285: ENGINE starting
+2013-01-22 21:51:35.751284: ENGINE loading STUDENT ENGINE part 3
+2013-01-22 21:51:35.777187: ENGINE loaded player module: OKComputer as player 1
+2013-01-22 21:51:35.779008: ENGINE loaded player module: Human as player 2
+2013-01-22 21:51:35.779222: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-01-22 21:51:37.898353: ENGINE calling STUDENT ENGINE init
+2013-01-22 21:51:37.900561: STUDENT ENGINE init call successfully returned
+2013-01-22 21:51:37.901103: ENGINE calling init() for player 1
+2013-01-22 21:51:37.901293: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 21:51:37.901648: ERROR: 1
+2013-01-22 21:51:37.905624: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 431, in initialize_player
+    playerdata=model.getPlayerData(playerNum)
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 483, in getPlayerData
+KeyError: 1
+
+2013-01-22 21:51:37.906154: ERROR: Player 1 init function caused an exception: 2013-01-22 21:51:37.906070: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-22 21:51:37.908054: TRACE:
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Engine\controller.py", line 124, in __init__
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 567, in studentEngineCall
+Engine.security.GameException: 2013-01-22 21:51:37.906070: ENGINE exiting due to STUDENT ENGINE exception
+
+
+2013-01-22 21:51:40.282449: ENGINE invalidating player 1 from error in init
+2013-01-22 21:51:40.283839: ENGINE calling init() for player 2
+2013-01-22 21:51:40.284085: ENGINE calling STUDENT ENGINE initialize_player
+2013-01-22 21:51:40.284943: ERROR: 2
+2013-01-22 21:51:40.287316: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "/home/wheeler/workspace/quoridor_group/StudentEngines/jak3122/__init__.py", line 431, in initialize_player
+    playerdata=model.getPlayerData(playerNum)
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 483, in getPlayerData
+KeyError: 2
+
+2013-01-22 21:51:40.287582: ERROR: Player 2 init function caused an exception: 2013-01-22 21:51:40.287547: ENGINE exiting due to STUDENT ENGINE exception
+
+2013-01-22 21:51:40.298164: TRACE:
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Engine\controller.py", line 124, in __init__
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 567, in studentEngineCall
+Engine.security.GameException: 2013-01-22 21:51:40.287547: ENGINE exiting due to STUDENT ENGINE exception
+
+
+2013-01-22 21:51:42.193165: ENGINE invalidating player 2 from error in init
+2013-01-22 21:51:42.212423: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.68219/partone.0/apikey.36bc8c65d1d4af66485/public.f9f52de35830b7935713dc4bf60ea15f74f199dc50ff5039bf058/animations.500/
+2013-01-22 21:51:42.212972: ENGINE shutting down

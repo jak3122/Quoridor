@@ -11,7 +11,7 @@ class EngineData(object):
     """A sample class for your engine data"""
     
     # Add other slots as needed
-    __slots__ = ('logger', 'config', 'model', 'board')
+    __slots__ = ('logger', 'config', 'model', 'board','move')
     
     def __init__(self, logger, config, model, board):
         """
@@ -29,6 +29,7 @@ class EngineData(object):
         self.config = config
         self.model = model
         self.board = board
+        self.move=1
         
         # initialize any other slots you require here
         

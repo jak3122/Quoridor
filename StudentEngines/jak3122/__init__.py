@@ -276,7 +276,6 @@ def validate_move(engineData, playerMove):
         
     else: # wall move
         
-        
         m = engineData.model.getPlayerData(player_id)['model'] 
         walls_remaining = m.playerWallsRemaining
         player_positions = m.playerPositions
@@ -406,18 +405,18 @@ def initialize_player(engineData, playerNum):
         Parameters
             engineData: the data originally built by this module in init()
                         (used to establish the context of the move)
-            playerNum: the number of the player (in [1 .. n] for n players)
+            playerNum: the number of the player (in [0 .. n-1] for n players)
 
         returns: the engine data, modified
     """
     
     # Step 1
     # Fetch the reference to the model from your engineData.
-    model = engineData.model
+    model=engineData.model
     
     # Step 2
     # Get the player module from the model using model.getPlayerModule.
-    playerModule = model.getPlayerModule(playerNum)
+    playermodule=model.getPlayerModule(playerNum)
     
     # Step 3
     # Call the chosen player module's init function with the appropriate data.
@@ -428,18 +427,14 @@ def initialize_player(engineData, playerNum):
     #     NUM_WALLS key in the config dictionary
     # playerHomes may only include home locations for active players in the game
     #     and it must be a tuple, not a list.
-    logger = engineData.logger
-    numWalls = engineData.config['NUM_WALLS']
-    playerHomes = model.playerHomes
-    
-    playerModule.init(logger, playerNum, numWalls, playerHomes)
-    
-    
+    logger=engineData.logger
+    numWalls=engineData.config['NUM_WALLS'][len(model.playerHomes)]
+    playermodule=playermodule.init(logger,playerNum,numWalls, model.playerHomes)
     # Step 4
     # Save the player data using StudentEngineModel's setPlayerData method.
     # The StudentEngineModel object should have been saved when your init
     # function was called.
-    model.setPlayerData(playerNum, playerModule)
+    model.setPlayerData(playerNum,playermodule)
     
     return engineData
 
@@ -456,10 +451,10 @@ def next_move(engineData):
                       and notifying other players
         
                       
-        Parameters
+        Parameter:
             engineData: the data originally built by this module in init()
                         (used to establish the context of the move)
-            playerNum: the number of the player (in [1 .. n] for n players)
+            playerNum: the number of the player (in [0 .. n-1] for n players)
 
         returns: the engine data, modified by the actions described above
     """
@@ -468,10 +463,19 @@ def next_move(engineData):
     # Get playerMove object from the current player using player module's move
     # function.
     # (At this point you do not need to record any player's playerData.)
+    playerNum=engineData.move
+    numPlayers=len(engineData.model.playerHomes)
     
+    model=engineData.model
+    playermodule=model.getPlayerModule(playerNum)
+    playerdata=model.getPlayerData(playerNum)
+    
+    move=playermodule.move(playerdata)
+    move=move.getCopy()
     
     # Step 2
     # Validate the move.
+    valid=validate_move(engineData,move)
 
     # Step 3
     # If it is invalid:
@@ -495,6 +499,25 @@ def next_move(engineData):
     # the original object gets modified.
 
     # Development tip: Disable AUTO_PLAY in config.cfg while developing this.
+    
+    if valid==False:
+        exit_due_to_error("INVALID MOVE")
+        engineData.logger.error("INVALID MOVE")
+    else:
+        
+            
+        engineData=last_move(engineData,move)
+        model.makeMove(move)
+        
+        for player in range(1,numPlayers+1): #update all other players' boards. 
+            playerdata=model.getPlayerData(player) #get player data
+            playerdata=playermodule.last_move(playerdata,move) #update the board
+            model.setPlayerData(playerNum,playerdata)
+            
+        engineData.move=engineData.move+1 #keep count of what player it is right now
+        if engineData.move>numPlayers:
+            engineData.move=1
+        
 
     return engineData
 
