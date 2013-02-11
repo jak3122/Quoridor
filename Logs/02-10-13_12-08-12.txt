@@ -1,0 +1,48 @@
+2013-02-10 12:08:12.242000: ENGINE starting
+2013-02-10 12:08:12.244000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 12:08:12.271000: ERROR: No module named StudentPlayers.jak3122
+2013-02-10 12:08:12.274000: TRACE:
+Traceback (most recent call last):
+  File ".\Engine\controller.py", line 93, in __init__
+  File "C:\Python32\lib\importlib\__init__.py", line 124, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "C:\Python32\lib\importlib\_bootstrap.py", line 824, in _gcd_import
+    raise ImportError(_ERR_MSG.format(name))
+ImportError: No module named StudentPlayers.jak3122
+
+2013-02-10 12:08:12.276000: ENGINE detects syntax or import error in player module: jak3122
+2013-02-10 12:08:12.279000: ENGINE loaded player module: OKComputer as player 1
+2013-02-10 12:08:12.280000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 12:08:14.898000: ENGINE calling STUDENT ENGINE init
+2013-02-10 12:08:14.900000: STUDENT ENGINE init call successfully returned
+2013-02-10 12:08:14.902000: ENGINE calling init() for player 1
+2013-02-10 12:08:14.904000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 12:08:14.905000: OKComputer initialized as player 1
+2013-02-10 12:08:14.907000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 12:08:14.917000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.138239/partone.0/apikey.36bc8c65d1d4af66485/public.775c19561284f4422955e9fdbf82ae98cb21013d5117d3fecff6b/animations.500/
+2013-02-10 12:08:14.919000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:14.923000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.006000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.008000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.013000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.106000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.108000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.115000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.274000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.276000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.280000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.463000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.467000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.476000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.551000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.555000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.563000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.665000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.670000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.676000: ENGINE uploading move to web engine
+2013-02-10 12:08:15.768000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:15.773000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 12:08:15.778000: ENGINE uploading move to web engine
+2013-02-10 12:08:16.472000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 12:08:16.489000: ENGINE shutting down

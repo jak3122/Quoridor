@@ -1,0 +1,30 @@
+2013-02-10 18:14:35.262000: ENGINE starting
+2013-02-10 18:14:35.269000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 18:14:35.303000: ENGINE loaded player module: OKComputer as player 1
+2013-02-10 18:14:35.307000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 18:14:35.309000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 18:14:45.695000: ENGINE calling STUDENT ENGINE init
+2013-02-10 18:14:45.702000: STUDENT ENGINE init call successfully returned
+2013-02-10 18:14:45.707000: ENGINE calling init() for player 1
+2013-02-10 18:14:45.710000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:14:45.714000: OKComputer initialized as player 1
+2013-02-10 18:14:45.718000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:14:45.721000: ENGINE calling init() for player 2
+2013-02-10 18:14:45.724000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:14:45.728000: OKComputer initialized as player 2
+2013-02-10 18:14:45.732000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:14:45.758000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.146048/partone.0/apikey.36bc8c65d1d4af66485/public.a9462e73f02ab3e96995a6416a8f06e204cea347511829e4ce28b/animations.500/
+2013-02-10 18:14:45.762000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:14:45.777000: ERROR: 8
+2013-02-10 18:14:45.786000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 553, in next_move
+    valid=validate_move(engineData,move)
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 317, in validate_move
+    start_square.neighbors = get_neighbors(engineData, start_r, start_c)
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 161, in get_neighbors
+    if engineData.board.squares[row][col].pawnId != 0:
+KeyError: 8
+

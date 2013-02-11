@@ -126,35 +126,87 @@ def get_neighbors(engineData, r, c):
                  ]
     final_neighbors = []
     wall_list = engineData.board.walls
+    for n in neighbors[:]:
+        row = n[0]
+        col = n[0]
+        if row < 0 or row > 8 or col < 0 or col > 8:
+            neighbors.remove(n)
     for n in neighbors:
         row = n[0]
         col = n[1]
         
         wall_in_the_way = False
+        pawn_in_the_way = False
         for wall in wall_list:
             if n == neighbors[0]:   # left neighbor
-                if ((wall.r1, wall.c1) == (r, c) and (wall.r2, wall.c2) == (r+2, c)) or ((wall.r1, wall.c1) == (r-1, c) and (wall.r2, wall.c2) == (r+1, c)):
+                if (((wall.r1, wall.c1) == (r, c) and (wall.r2, wall.c2) == (r+2, c))
+                or
+                ((wall.r1, wall.c1) == (r-1, c) and (wall.r2, wall.c2) == (r+1, c))):
                     wall_in_the_way = True
                     
             elif n == neighbors[1]: # top neighbor
-                if ((wall.r1, wall.c1) == (r, c) and (wall.r2, wall.c2) == (r, c+2)) or ((wall.r1, wall.c1) == (r, c-1) and (wall.r2, wall.c2) == (r, c+1)):
+                if (((wall.r1, wall.c1) == (r, c) and (wall.r2, wall.c2) == (r, c+2))
+                or
+                ((wall.r1, wall.c1) == (r, c-1) and (wall.r2, wall.c2) == (r, c+1))):
                     wall_in_the_way = True
                     
             elif n == neighbors[2]:  # right neighbor
-                if ((wall.r1, wall.c1) == (r, c+1) and (wall.r2, wall.c2) == (r+2, c+1)) or ((wall.r1, wall.c1) == (r-1, c+1) and (wall.r2, wall.c2) == (r+1, c+1)):
+                if (((wall.r1, wall.c1) == (r, c+1) and (wall.r2, wall.c2) == (r+2, c+1))
+                or
+                ((wall.r1, wall.c1) == (r-1, c+1) and (wall.r2, wall.c2) == (r+1, c+1))):
                     wall_in_the_way = True
                     
             elif n == neighbors[3]: # bottom neighbor
-                if ((wall.r1, wall.c1) == (r+1, c) and (wall.r2, wall.c2) == (r+1, c+2)) or ((wall.r1, wall.c1) == (r+1, c-1) and (wall.r2, wall.c2) == (r+1, c+1)):
+                if (((wall.r1, wall.c1) == (r+1, c) and (wall.r2, wall.c2) == (r+1, c+2))
+                or
+                ((wall.r1, wall.c1) == (r+1, c-1) and (wall.r2, wall.c2) == (r+1, c+1))):
                     wall_in_the_way = True
-                    
-            else:
-                print("Error in for-loop line ~137")
-                input()
+        if not wall_in_the_way:
+            # see if there's a pawn in the adjacent square
+            if engineData.board.squares[(row,col)].pawnId != 0:
+                pawn_in_the_way = True
+                # check if we can jump over it
+                wall_preventing_jump = False
+                for wall in wall_list:
+                    if n == neighbors[0]:   # left neighbor
+                        jump_square = [r, c-2]
+                        if ((wall.start == (r-1, c-1) and wall.end == (r+1, c-1))
+                            or
+                            (wall.start == (r, c-1) and wall.end == (r+2, c-1))):
+                            
+                            wall_preventing_jump = True
+                    elif n == neighbors[1]: # top neighbor
+                        jump_square = [r-2, c]
+                        if ((wall.start == (r-1, c-1) and wall.end == (r-1, c+1))
+                            or
+                            (wall.start == (r-1, c) and wall.end == (r-1, c+2))):
+                            wall_preventing_jump = True
+                    elif n == neighbors[2]: # right neighbor
+                        jump_square = [r, c+2]
+                        if ((wall.start == (r-1, c+2) and wall.end == (r+1, c+2))
+                            or
+                            (wall.start == (r, c+2) and wall.end == (r+2, c+2))):
+                            wall_preventing_jump = True
+                    elif n == neighbors[3]: # bottom neighbor
+                        jump_square = [r+2, c]
+                        if ((wall.start == (r+2, c-1) and wall.end == (r+2, c+1))
+                            or
+                            (wall.start == (r+2, c) and wall.end == (r+2, c+2))):
+                            wall_preventing_jump = True
+                if wall_preventing_jump:
+                    # check L-jumps
+                    pass
+                else:
+                    if not( jump_square[0] < 0 or jump_square[1] < 0
+                            or jump_square[0] > 8 or jump_square[1] > 8):
+                        final_neighbors.append(jump_square)
         
-        if not(row < 0 or col < 0 or row > 8 or col > 8 or wall_in_the_way):
+        if not(row < 0 or col < 0 or row > 8 or col > 8
+               or wall_in_the_way
+               or pawn_in_the_way):
             final_neighbors.append(n)
-
+    
+    
     return final_neighbors
 
 def get_shortest_path(engineData, r1, c1, r2, c2):
@@ -271,6 +323,34 @@ def validate_move(engineData, playerMove):
         if not list((end_r, end_c)) in start_square.neighbors:
             # get_neighbors checks if the neighbors are accessible,
             # so we don't need to do that here
+#            
+#            # update for part 3
+#            # check for jumps and L-jumps
+#            player_trying_to_jump = False
+#            player_trying_to_L_jump = (((end_r == start_r - 1) and
+#                                       (end_c == start_c - 1))
+#                                       or
+#                                       ((end_r == start_r + 1) and
+#                                        (end_c == start_c - 1))
+#                                       or
+#                                       ((end_r == start_r - 1) and
+#                                        (end_c == start_c + 1))
+#                                       or
+#                                       ((end_r == start_r + 1) and
+#                                        (end_c == start_c + 1)))
+#            if (abs( start_r - end_r ) == 2 and start_c - end_c == 0):
+#                player_trying_to_jump = True
+#                jumped_square = (int(( start_r + end_r ) / 2),
+#                                 start_c)
+#            elif (abs( start_c - end_c ) == 2 and start_r - end_r == 0):
+#                player_trying_to_jump = True
+#                jumped_square = (start_r,
+#                                 int(( start_c + end_c ) / 2))
+#            
+#            if ((end_r == start_r - 1) and (end_c == start_c - 1)):
+#                jumped_square = 
+                
+                
             Logger.error(Logger,"VALIDATION ERROR: End square not accessible.")
             return False
         
@@ -374,12 +454,12 @@ def validate_move(engineData, playerMove):
                     #of the game, it is 9, but then goes down as you block them off.
                     
         for i in range(0,9):
-            path=get_shortest_path(\
-                                   engineData_test,\
-                                   player_positions[0][0],\
-                                   player_positions[0][1],\
-                                   player_goals[0][i][0],\
-                                   player_goals[0][i][1]\
+            path=get_shortest_path(
+                                   engineData_test,
+                                   player_positions[0][0],
+                                   player_positions[0][1],
+                                   player_goals[0][i][0],
+                                   player_goals[0][i][1]
                                    )
             #I dont know if playerGoals attribute is the same for every player, so I have it 
             #set up for player one. Same goes for positions. 
@@ -465,12 +545,14 @@ def next_move(engineData):
     # (At this point you do not need to record any player's playerData.)
     playerNum=engineData.move
     numPlayers=len(engineData.model.playerHomes)
-    
     model=engineData.model
     playermodule=model.getPlayerModule(playerNum)
-    playerdata=model.getPlayerData(playerNum)
+#    playerdata=model.getPlayerData(playerNum)
     
-    move=playermodule.move(playerdata)
+    try:
+        move=playermodule.move(playerdata)
+    except TypeError:
+        Logger.error(Logger, "TypeError when calling playermodule.move")
     move=move.getCopy()
     
     # Step 2
@@ -505,7 +587,6 @@ def next_move(engineData):
         engineData.logger.error("INVALID MOVE")
     else:
         
-            
         engineData=last_move(engineData,move)
         model.makeMove(move)
         
@@ -554,7 +635,12 @@ def generate_board(engineData):
     # this controls how many PlayerMoves you generate in this function
     # note that this number should always be even due to the asymmetry of the
     # game board
-    numWalls = None
+    numWalls = engineData.config['STUDENT_ENGINE_WALLS']
+    if not numWalls % 2 == 0:
+        Logger.error(Logger, "Error generating board: STUDENT_ENGINE_WALLS \
+        parameter is not an even number.")
+    
+    
     
     # Generate PlayerMoves to be made
     

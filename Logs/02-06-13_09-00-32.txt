@@ -1,0 +1,27 @@
+2013-02-06 09:00:32.358000: ENGINE starting
+2013-02-06 09:00:32.361000: ENGINE loading STUDENT ENGINE part 3
+2013-02-06 09:00:32.381000: ENGINE loaded player module: OKComputer as player 1
+2013-02-06 09:00:32.382000: ENGINE loaded player module: Human as player 2
+2013-02-06 09:00:32.382000: QUORIDOR ENGINE CLIENT 1.0.5 by Adam Oest initializing
+2013-02-06 09:00:34.348000: ENGINE calling STUDENT ENGINE init
+2013-02-06 09:00:34.349000: STUDENT ENGINE init call successfully returned
+2013-02-06 09:00:34.350000: ENGINE calling init() for player 1
+2013-02-06 09:00:34.350000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 09:00:34.353000: OKComputer initialized as player 1
+2013-02-06 09:00:34.353000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 09:00:34.353000: ENGINE calling init() for player 2
+2013-02-06 09:00:34.353000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-06 09:00:34.353000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-06 09:00:34.377000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.86915/partone.0/apikey.36bc8c65d1d4af66485/public.7443f24836c7c80a90811008d97509d6e9a4b4d8511261fa28642/animations.500/
+2013-02-06 09:00:34.377000: ENGINE calling STUDENT ENGINE next_move
+2013-02-06 09:00:34.382000: ENGINE uploading move to web engine
+2013-02-06 09:00:34.518000: ERROR: 'NoneType' object is not subscriptable
+2013-02-06 09:00:34.521000: TRACE: 
+Traceback (most recent call last):
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\Model\__init__.py", line 560, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 514, in next_move
+    playerdata=playermodule.last_move(playerdata,move) #update the board
+  File "C:\Users\Adam\Desktop\a\Quoridor_Client_2121\Releases\1.0.5\Python3.2\StudentPlayers\OKComputer\__init__.py", line 63, in last_move
+TypeError: 'NoneType' object is not subscriptable
+

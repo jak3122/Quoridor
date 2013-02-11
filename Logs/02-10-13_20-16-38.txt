@@ -1,0 +1,25 @@
+2013-02-10 20:16:38.390000: ENGINE starting
+2013-02-10 20:16:38.397000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 20:16:38.431000: ENGINE loaded player module: Human as player 1
+2013-02-10 20:16:38.439000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 20:16:38.443000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 20:17:16.483000: ENGINE calling STUDENT ENGINE init
+2013-02-10 20:17:16.490000: STUDENT ENGINE init call successfully returned
+2013-02-10 20:17:16.495000: ENGINE calling init() for player 1
+2013-02-10 20:17:16.498000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:17:16.501000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:17:16.504000: ENGINE calling init() for player 2
+2013-02-10 20:17:16.507000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:17:16.511000: OKComputer initialized as player 2
+2013-02-10 20:17:16.516000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:17:16.541000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.148833/partone.0/apikey.36bc8c65d1d4af66485/public.65794e3bd9c17e2f5cb696bb0d8f18578c3c217a5118469c5e4fd/animations.500/
+2013-02-10 20:17:16.545000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 20:17:16.549000: ERROR: local variable 'playerdata' referenced before assignment
+2013-02-10 20:17:16.557000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 554, in next_move
+    move=playermodule.move(playerdata)
+UnboundLocalError: local variable 'playerdata' referenced before assignment
+

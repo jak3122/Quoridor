@@ -1,0 +1,30 @@
+2013-02-10 18:25:15.278000: ENGINE starting
+2013-02-10 18:25:15.281000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 18:25:15.295000: ENGINE loaded player module: OKComputer as player 1
+2013-02-10 18:25:15.296000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 18:25:15.297000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 18:25:22.300000: ENGINE calling STUDENT ENGINE init
+2013-02-10 18:25:22.303000: STUDENT ENGINE init call successfully returned
+2013-02-10 18:25:22.306000: ENGINE calling init() for player 1
+2013-02-10 18:25:22.307000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:25:22.310000: OKComputer initialized as player 1
+2013-02-10 18:25:22.314000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:25:22.317000: ENGINE calling init() for player 2
+2013-02-10 18:25:22.320000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:25:22.324000: OKComputer initialized as player 2
+2013-02-10 18:25:22.328000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:25:22.350000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.146277/partone.0/apikey.36bc8c65d1d4af66485/public.512eda8f40bb943fb68ed2341685bc494f6deb2451182c6179eb2/animations.500/
+2013-02-10 18:25:22.354000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:25:22.364000: ENGINE uploading move to web engine
+2013-02-10 18:25:24.109000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 18:25:24.113000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:25:24.127000: ENGINE uploading move to web engine
+2013-02-10 18:25:25.537000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 18:25:25.541000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:25:25.556000: ENGINE uploading move to web engine
+2013-02-10 18:25:26.897000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 18:25:26.901000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:25:26.916000: ENGINE uploading move to web engine
+2013-02-10 18:25:28.558000: STUDENT ENGINE next_move call successfully returned
+2013-02-10 18:25:28.562000: ENGINE shutting down

@@ -1,0 +1,4 @@
+2013-02-10 19:49:14.128000: ENGINE starting
+2013-02-10 19:49:14.132000: ENGINE loaded player module: Human as player 1
+2013-02-10 19:49:14.135000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 19:49:14.137000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing

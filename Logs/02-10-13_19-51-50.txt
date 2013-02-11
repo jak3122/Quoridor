@@ -1,0 +1,17 @@
+2013-02-10 19:51:50.381000: ENGINE starting
+2013-02-10 19:51:50.383000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 19:51:50.397000: ENGINE loaded player module: Human as player 1
+2013-02-10 19:51:50.400000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 19:51:50.402000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 19:52:01.825000: ENGINE calling STUDENT ENGINE init
+2013-02-10 19:52:01.832000: STUDENT ENGINE init call successfully returned
+2013-02-10 19:52:01.857000: ENGINE calling init() for player 1
+2013-02-10 19:52:01.860000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 19:52:01.863000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 19:52:01.866000: ENGINE calling init() for player 2
+2013-02-10 19:52:01.869000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 19:52:01.872000: OKComputer initialized as player 2
+2013-02-10 19:52:01.875000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 19:52:01.887000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.148224/partone.0/apikey.36bc8c65d1d4af66485/public.19434d59fe987f1478f989db1c82add5ddacc939511840b1043b9/animations.500/
+2013-02-10 19:52:01.922000: ENGINE calling STUDENT ENGINE next_move

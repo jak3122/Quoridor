@@ -1,0 +1,26 @@
+2013-02-10 20:27:12.463000: ENGINE starting
+2013-02-10 20:27:12.472000: ENGINE loaded player module: Human as player 1
+2013-02-10 20:27:12.481000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 20:27:12.484000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 20:27:20.473000: ENGINE calling init() for player 1
+2013-02-10 20:27:20.478000: ENGINE calling init() for player 2
+2013-02-10 20:27:20.486000: OKComputer initialized as player 2
+2013-02-10 20:27:20.512000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.149079/partone.0/apikey.36bc8c65d1d4af66485/public.504e25319d96e8a5398ca6743bbf0ac95d1808ac511848f86e566/animations.500/
+2013-02-10 20:27:20.516000: ENGINE processing human move # 1
+2013-02-10 20:27:20.520000: ENGINE waiting for human move
+2013-02-10 20:27:31.728000: ENGINE downloaded human move. Player 1 Move: [8,4] -> [7,4]
+2013-02-10 20:27:31.731000: ENGINE finished processing player 1's move
+2013-02-10 20:27:31.736000: ENGINE notifying player 1 of last move
+2013-02-10 20:27:31.758000: ENGINE notifying player 2 of last move
+2013-02-10 20:27:31.790000: ENGINE finished with next move
+2013-02-10 20:27:31.794000: ENGINE processing move # 2
+2013-02-10 20:27:31.798000: ENGINE getting next move from player 2
+2013-02-10 20:27:31.824000: ENGINE validating player 2 move. Player 2 Move: [0,4] -> [1,4]
+2013-02-10 20:27:31.827000: ENGINE uploading move to web engine
+2013-02-10 20:27:32.492000: ENGINE finished processing player 2's move
+2013-02-10 20:27:32.498000: ENGINE notifying player 1 of last move
+2013-02-10 20:27:32.519000: ENGINE notifying player 2 of last move
+2013-02-10 20:27:32.537000: ENGINE finished with next move
+2013-02-10 20:27:32.542000: ENGINE processing human move # 3
+2013-02-10 20:27:32.545000: ENGINE waiting for human move

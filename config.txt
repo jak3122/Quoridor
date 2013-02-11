@@ -18,7 +18,7 @@ API_KEY 36bc8c65d1d4af66485
 # game. 
 # To play via the GUI, use Human.  
 
-PLAYER_MODULES OKComputer,Human
+PLAYER_MODULES Human,OKComputer
 
 # PART ONE ---
 # Enter part one mode if the player code is currently set up to perform
@@ -80,14 +80,7 @@ STDOUT_LOGGING True
 
 # PlayerMove(player ID, player movement, start row, start col, end row, end col)
 
-#PRE_MOVE PlayerMove(1,True,8,4,7,1)
-#PRE_MOVE PlayerMove(1,True,7,4,7,5)
-#PRE_MOVE PlayerMove(1,False,7,6,9,6)
-#PRE_MOVE PlayerMove(1,False,7,7,9,7)
-#PRE_MOVE PlayerMove(1,False,8,4,8,6)
-#PRE_MOVE PlayerMove(1,False,2,0,2,2)
-#PRE_MOVE PlayerMove(1,False,0,2,2,2)
-#PRE_MOVE PlayerMove(1,False,0,2,2,2)
+
 
 ########################### ENGINE STUDENTS ONLY ###############################
 
@@ -95,7 +88,7 @@ STDOUT_LOGGING True
 STUDENT_ENGINE_MODULE jak3122
 
 # Student engine mode (1-4, or 0 to disable)
-STUDENT_ENGINE_MODE 3
+STUDENT_ENGINE_MODE 0
 
 # Number of walls to place during board generation (part 4)
 # This number is per player, and less than the maximum (see NUM_WALLS)

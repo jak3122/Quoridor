@@ -1,0 +1,30 @@
+2013-02-10 18:23:51.375000: ENGINE starting
+2013-02-10 18:23:51.378000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 18:23:51.444000: ENGINE loaded player module: OKComputer as player 1
+2013-02-10 18:23:51.445000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 18:23:51.446000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 18:23:55.198000: ENGINE calling STUDENT ENGINE init
+2013-02-10 18:23:55.203000: STUDENT ENGINE init call successfully returned
+2013-02-10 18:23:55.207000: ENGINE calling init() for player 1
+2013-02-10 18:23:55.209000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:23:55.215000: OKComputer initialized as player 1
+2013-02-10 18:23:55.218000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:23:55.221000: ENGINE calling init() for player 2
+2013-02-10 18:23:55.224000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 18:23:55.228000: OKComputer initialized as player 2
+2013-02-10 18:23:55.231000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 18:23:55.260000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.146248/partone.0/apikey.36bc8c65d1d4af66485/public.4017e5dc99ae4ce90763f3899d866ea2220932c451182c0a39d11/animations.500/
+2013-02-10 18:23:55.264000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 18:23:55.278000: ERROR: (9, 4)
+2013-02-10 18:23:55.287000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 557, in next_move
+    valid=validate_move(engineData,move)
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 321, in validate_move
+    start_square.neighbors = get_neighbors(engineData, start_r, start_c)
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 165, in get_neighbors
+    if engineData.board.squares[(row,col)].pawnId != 0:
+KeyError: (9, 4)
+

@@ -1,0 +1,22 @@
+2013-02-10 19:39:51.319000: ENGINE starting
+2013-02-10 19:39:51.322000: ENGINE loaded player module: Human as player 1
+2013-02-10 19:39:51.327000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 19:39:51.328000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 19:40:12.002000: ENGINE calling init() for player 1
+2013-02-10 19:40:12.006000: ENGINE calling init() for player 2
+2013-02-10 19:40:12.009000: OKComputer initialized as player 2
+2013-02-10 19:40:12.033000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.147889/partone.0/apikey.36bc8c65d1d4af66485/public.9d61133308f1aebe02175cb74e843c2dafeb852351183deb346c0/animations.500/
+2013-02-10 19:40:12.037000: ENGINE processing human move # 1
+2013-02-10 19:40:12.065000: ENGINE waiting for human move
+2013-02-10 19:40:15.045000: ERROR: 2013-02-10 19:40:15.045000: Invalid game key or timeout
+
+2013-02-10 19:40:15.050000: TRACE: 
+Traceback (most recent call last):
+  File ".\Engine\controller.py", line 207, in nextTurn
+  File ".\Model\__init__.py", line 376, in syncState
+  File ".\Model\__init__.py", line 191, in processData
+Engine.security.GameException: 2013-02-10 19:40:15.045000: Invalid game key or timeout
+
+
+2013-02-10 19:40:18.062000: ENGINE finished with next move
