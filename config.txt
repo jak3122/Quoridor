@@ -18,7 +18,7 @@ API_KEY 36bc8c65d1d4af66485
 # game. 
 # To play via the GUI, use Human.  
 
-PLAYER_MODULES Human,OKComputer
+PLAYER_MODULES OKComputer,OKComputer
 
 # PART ONE ---
 # Enter part one mode if the player code is currently set up to perform
@@ -81,14 +81,13 @@ STDOUT_LOGGING True
 # PlayerMove(player ID, player movement, start row, start col, end row, end col)
 
 
-
 ########################### ENGINE STUDENTS ONLY ###############################
 
 # Type the name of your student engine module
 STUDENT_ENGINE_MODULE jak3122
 
 # Student engine mode (1-4, or 0 to disable)
-STUDENT_ENGINE_MODE 0
+STUDENT_ENGINE_MODE 3
 
 # Number of walls to place during board generation (part 4)
 # This number is per player, and less than the maximum (see NUM_WALLS)

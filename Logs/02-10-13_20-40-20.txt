@@ -1,0 +1,26 @@
+2013-02-10 20:40:20.537000: ENGINE starting
+2013-02-10 20:40:20.543000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 20:40:20.577000: ENGINE loaded player module: Human as player 1
+2013-02-10 20:40:20.585000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 20:40:20.588000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 20:40:29.529000: ENGINE calling STUDENT ENGINE init
+2013-02-10 20:40:29.536000: STUDENT ENGINE init call successfully returned
+2013-02-10 20:40:29.564000: ENGINE calling init() for player 1
+2013-02-10 20:40:29.567000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:40:29.570000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:40:29.573000: ENGINE calling init() for player 2
+2013-02-10 20:40:29.576000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:40:29.580000: OKComputer initialized as player 2
+2013-02-10 20:40:29.584000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:40:29.609000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.149389/partone.0/apikey.36bc8c65d1d4af66485/public.2fffc955ad3a337fab2359ce15969f06d27b7f4951184c0d7496e/animations.500/
+2013-02-10 20:40:29.613000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 20:41:00.235000: ERROR: 'NoneType' object is not subscriptable
+2013-02-10 20:41:00.245000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 556, in next_move
+    move=playermodule.move(playerdata)
+  File ".\StudentPlayers\Human\__init__.py", line 82, in move
+TypeError: 'NoneType' object is not subscriptable
+

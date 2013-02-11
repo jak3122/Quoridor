@@ -1,0 +1,31 @@
+2013-02-10 21:04:38.356000: ENGINE starting
+2013-02-10 21:04:38.362000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 21:04:38.385000: ENGINE loaded player module: BadComputer as player 1
+2013-02-10 21:04:38.393000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 21:04:38.397000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 21:05:18.184000: ENGINE calling STUDENT ENGINE init
+2013-02-10 21:05:18.189000: STUDENT ENGINE init call successfully returned
+2013-02-10 21:05:18.193000: ENGINE calling init() for player 1
+2013-02-10 21:05:18.196000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 21:05:18.200000: BadComputer initialized as player 1
+2013-02-10 21:05:18.203000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 21:05:18.206000: ENGINE calling init() for player 2
+2013-02-10 21:05:18.209000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 21:05:18.213000: OKComputer initialized as player 2
+2013-02-10 21:05:18.216000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 21:05:18.242000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.150008/partone.0/apikey.36bc8c65d1d4af66485/public.3d39d94b264490265dd484b275beca27b84b0f4c511851dd4d806/animations.500/
+2013-02-10 21:05:18.282000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 21:05:18.438000: ENGINE uploading move to web engine
+2013-02-10 21:05:19.837000: ERROR: 2013-02-10 21:05:19.837000: Your computer's clock appears to be off by 39 seconds: please correct your system time in order to proceed
+
+2013-02-10 21:05:19.850000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 598, in next_move
+    model.makeMove(move)
+  File ".\Model\__init__.py", line 308, in makeMove
+  File ".\Model\__init__.py", line 191, in processData
+Engine.security.GameException: 2013-02-10 21:05:19.837000: Your computer's clock appears to be off by 39 seconds: please correct your system time in order to proceed
+
+

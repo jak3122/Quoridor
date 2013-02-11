@@ -126,9 +126,10 @@ def get_neighbors(engineData, r, c):
                  ]
     final_neighbors = []
     wall_list = engineData.board.walls
-    for n in neighbors[:]:
+    neighbors_copy = neighbors[:]
+    for n in neighbors_copy:
         row = n[0]
-        col = n[0]
+        col = n[1]
         if row < 0 or row > 8 or col < 0 or col > 8:
             neighbors.remove(n)
     for n in neighbors:
@@ -435,12 +436,10 @@ def validate_move(engineData, playerMove):
             if end_point_N==center_point and direction==horiz_wall: #notice a pattern?
                 Logger.error(Logger,"VALIDATION ERROR: Invalid wall placement, overlaps valid wall.")
                 return False
-                return False
             
             end_point_S=(walls[i][2],walls[i][3])
             if end_point_S==center_point and direction==horiz_wall:
                 Logger.error(Logger,"VALIDATION ERROR: invalid wall placement, overlaps valid wall.")
-                return False
                 return False
         
         
@@ -471,7 +470,7 @@ def validate_move(engineData, playerMove):
             Logger.error(Logger,"VALIDATION ERROR: Invalid wall placement, blocks player from reaching home.")
             return False
         
-    
+    Logger.write(Logger, "Returning True from validate_move for: "+str(playerMove))
     return True
 
 def initialize_player(engineData, playerNum):
@@ -515,7 +514,7 @@ def initialize_player(engineData, playerNum):
     # The StudentEngineModel object should have been saved when your init
     # function was called.
     model.setPlayerData(playerNum,playermodule)
-    
+    Logger.write(Logger, "Player "+str(playerNum)+" initialize successfully.")
     return engineData
 
 def next_move(engineData):
@@ -547,12 +546,18 @@ def next_move(engineData):
     numPlayers=len(engineData.model.playerHomes)
     model=engineData.model
     playermodule=model.getPlayerModule(playerNum)
-#    playerdata=model.getPlayerData(playerNum)
-    
-    try:
-        move=playermodule.move(playerdata)
-    except TypeError:
-        Logger.error(Logger, "TypeError when calling playermodule.move")
+    playerdata=model.getPlayerData(playerNum)
+    # read from pre_moves before allowing players to play 
+    move = False 
+    if engineData.config["PRE_MOVE"]: 
+        move = engineData.config["PRE_MOVE"].pop(0);
+    else: 
+        move=playermodule.move(playerdata) 
+        move=move.getCopy()
+#    try:
+#        move=playermodule.move(playerdata)
+#    except TypeError:
+#        Logger.error(Logger, "TypeError when calling playermodule.move")
     move=move.getCopy()
     
     # Step 2

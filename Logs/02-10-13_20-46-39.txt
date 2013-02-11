@@ -1,0 +1,32 @@
+2013-02-10 20:46:39.940000: ENGINE starting
+2013-02-10 20:46:39.948000: ENGINE loading STUDENT ENGINE part 3
+2013-02-10 20:46:39.971000: ENGINE loaded player module: BadComputer as player 1
+2013-02-10 20:46:39.979000: ENGINE loaded player module: OKComputer as player 2
+2013-02-10 20:46:39.983000: QUORIDOR ENGINE CLIENT 1.1.0 by Adam Oest initializing
+2013-02-10 20:46:55.055000: ENGINE calling STUDENT ENGINE init
+2013-02-10 20:46:55.060000: STUDENT ENGINE init call successfully returned
+2013-02-10 20:46:55.064000: ENGINE calling init() for player 1
+2013-02-10 20:46:55.067000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:46:55.070000: BadComputer initialized as player 1
+2013-02-10 20:46:55.073000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:46:55.098000: ENGINE calling init() for player 2
+2013-02-10 20:46:55.101000: ENGINE calling STUDENT ENGINE initialize_player
+2013-02-10 20:46:55.106000: OKComputer initialized as player 2
+2013-02-10 20:46:55.109000: STUDENT ENGINE initialize_player call successfully returned
+2013-02-10 20:46:55.135000: ENGINE GUI accessible at:
+https://adelaide.cs.rit.edu/~royale/quoridorui/gameview/gameid.149511/partone.0/apikey.36bc8c65d1d4af66485/public.03e094c722b71e7d7a122836e32c7471d4e7368b51184d8eecf29/animations.500/
+2013-02-10 20:46:55.138000: ENGINE calling STUDENT ENGINE next_move
+2013-02-10 20:46:55.146000: ERROR: (8, -1)
+2013-02-10 20:46:55.155000: TRACE: 
+Traceback (most recent call last):
+  File ".\Model\__init__.py", line 561, in studentEngineCall
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 566, in next_move
+    valid=validate_move(engineData,move)
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 462, in validate_move
+    player_goals[0][i][1]
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 250, in get_shortest_path
+    neigh_coords = get_neighbors(engineData, current[0], current[1])
+  File "C:\Users\Joe\Documents\GitHub\Quoridor\StudentEngines\jak3122\__init__.py", line 166, in get_neighbors
+    if engineData.board.squares[(row,col)].pawnId != 0:
+KeyError: (8, -1)
+
